@@ -20,7 +20,7 @@ URLS = [
     "https://evilgodfahim.github.io/edit/daily_feed.xml",
 "https://evilgodfahim.github.io/bint/final.xml",
 "https://evilgodfahim.github.io/bdlb/final.xml",
-"https://evilgodfahim.github.io/bint/final_extra.xml"
+"https://evilgodfahim.github.io/bint/final_extra.xml" 
 ]
 
 # Groq Configuration
@@ -42,15 +42,15 @@ def save_xml(data, error_message=None):
 
     if error_message:
         item = ET.SubElement(channel, "item")
-        ET.SubElement(item, "title").text = "⚠️ System Error"
+        ET.SubElement(item, "title").text = "System Error"
         ET.SubElement(item, "description").text = f"Script failed: {error_message}"
         ET.SubElement(item, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
         ET.SubElement(item, "link").text = "https://github.com/evilgodfahim"
     
     elif not data:
         item = ET.SubElement(channel, "item")
-        ET.SubElement(item, "title").text = "✅ System Running - No Priority News Today"
-        ET.SubElement(item, "description").text = "Curation system working. No exam-critical or geopolitically significant articles found in the last 24 hours."
+        ET.SubElement(item, "title").text = "System Running - No Priority News Today"
+        ET.SubElement(item, "description").text = "Curation system working. No structurally significant articles found in the last 26 hours."
         ET.SubElement(item, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
         ET.SubElement(item, "link").text = "https://github.com/evilgodfahim"
         
@@ -60,7 +60,7 @@ def save_xml(data, error_message=None):
             ET.SubElement(item, "title").text = art['title']
             ET.SubElement(item, "link").text = art['link']
             ET.SubElement(item, "pubDate").text = art['pubDate']
-            html_desc = f"<p><b>📌 [{art.get('category', 'News')}]</b></p><p><i>{art.get('reason', 'Selected')}</i></p><hr/><p>{art['description']}</p>"
+            html_desc = f"<p><b>[{art.get('category', 'News')}]</b></p><p><i>{art.get('reason', 'Selected')}</i></p><hr/><p>{art['description']}</p>"
             ET.SubElement(item, "description").text = html_desc
 
     try:
@@ -95,7 +95,7 @@ def fetch_titles_only():
     seen_links = set()
     seen_titles = set()
     now = datetime.now(timezone.utc)
-    cutoff_time = now - timedelta(hours=26)
+    cutoff_time = now - timedelta(hours=26)  # 26-hour window
     
     print(f"🕒 Time Filter: Articles after {cutoff_time.strftime('%Y-%m-%d %H:%M UTC')}", flush=True)
     headers = {'User-Agent': 'BCS-Curator/2.0'}
@@ -305,7 +305,7 @@ Start with [ and end with ]."""
 
 def main():
     print("=" * 70, flush=True)
-    print("🚀 Elite News Curator - Powered by Groq (Llama 3.3 70B)", flush=True)
+    print("Elite News Curator - Powered by Groq (Llama 3.3 70B)", flush=True)
     print("=" * 70, flush=True)
     
     if not os.path.exists("filtered_feed.xml"):
@@ -336,9 +336,9 @@ def main():
         seen_selected_links = set()
         seen_selected_titles = set()
         
-        print(f"\n🚀 Processing {len(batches)} batches (size={BATCH_SIZE}) with {MODEL_NAME}...", flush=True)
-        print(f"⚡ Groq Free Tier: 30 RPM | 6k TPM | 14.4k RPD - Lightning fast!", flush=True)
-        print(f"📊 Strategy: Process up to {len(articles_to_process)} articles\n", flush=True)
+        print(f"\n* Processing {len(batches)} batches (size={BATCH_SIZE}) with {MODEL_NAME}...", flush=True)
+        print(f"* Groq Free Tier: 30 RPM | 6k TPM | 14.4k RPD - Lightning fast!", flush=True)
+        print(f"* Strategy: Process up to {len(articles_to_process)} articles\n", flush=True)
 
         quota_exhausted = False
         batches_processed = 0
@@ -391,7 +391,7 @@ def main():
                 time.sleep(3)
 
         selection_rate = (len(selected_articles)*100//len(articles_to_process)) if articles_to_process else 0
-        print(f"\n🎯 RESULTS:", flush=True)
+        print(f"\nRESULTS:", flush=True)
         print(f"   Total articles available: {len(articles)}", flush=True)
         print(f"   Articles analyzed: {len(articles_to_process)}", flush=True)
         print(f"   Articles selected: {len(selected_articles)} ({selection_rate}% pass rate)", flush=True)
@@ -401,7 +401,7 @@ def main():
         print(f"   Daily quota used: ~{batches_processed}/14400 requests", flush=True)
         
         save_xml(selected_articles)
-        print("\n✅ Script completed successfully!", flush=True)
+        print("\nScript completed successfully!", flush=True)
 
     except KeyError as e:
         error_msg = f"Configuration error: {e}. Check if GEM environment variable is set."
