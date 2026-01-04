@@ -26,9 +26,9 @@ URLS = [
     "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed.xml",
     "https://evilgodfahim.github.io/edit/daily_feed.xml",
-"https://evilgodfahim.github.io/ds/printversion.xml",
-"https://politepaul.com/fd/BaUjoEn6s1Rx.xml",
-"https://politepaul.com/fd/cjcFELwr80sj.xml"
+    "https://evilgodfahim.github.io/ds/printversion.xml",
+    "https://politepaul.com/fd/BaUjoEn6s1Rx.xml",
+    "https://politepaul.com/fd/cjcFELwr80sj.xml"
 ]
 
 MODELS = [
@@ -139,14 +139,14 @@ def save_xml(data, filename, error_message=None):
             html_desc = f"<p><b>[{category_info}]</b></p>"
             html_desc += f"<p><i>{reason_info}</i></p>"
             html_desc += f"<p><small>Selected by: {models_str}</small></p>"
-            
+
             # Add clustered similar articles if any
             if 'clustered_articles' in art and art['clustered_articles']:
                 html_desc += "<hr/><p><b>📎 Similar Coverage:</b></p><ul>"
                 for similar in art['clustered_articles']:
                     html_desc += f"<li><a href='{similar['link']}'>{similar['title']}</a></li>"
                 html_desc += "</ul>"
-            
+
             html_desc += f"<hr/><p>{art['description']}</p>"
 
             ET.SubElement(item, "description").text = html_desc
@@ -159,55 +159,177 @@ def save_xml(data, filename, error_message=None):
     except Exception as e:
         print(f"::error::Failed to write XML {filename}: {e}", flush=True)
 
+def parse_flexible_date(date_string):
+    """
+    Robust date parser optimized for the two main RSS date formats.
+    Returns datetime object in UTC or None if parsing fails.
+    """
+    if not date_string:
+        return None
+    
+    date_string = date_string.strip()
+    
+    # Method 1: ISO 8601 format (2026-01-04T00:50:30+00:00)
+    iso_formats = [
+        "%Y-%m-%dT%H:%M:%S%z",      # 2026-01-04T00:50:30+00:00
+        "%Y-%m-%dT%H:%M:%SZ",       # 2026-01-04T00:50:30Z (alternative)
+        "%Y-%m-%dT%H:%M:%S",        # 2026-01-04T00:50:30 (no timezone)
+    ]
+    
+    for fmt in iso_formats:
+        try:
+            dt = datetime.strptime(date_string, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            else:
+                dt = dt.astimezone(timezone.utc)
+            return dt
+        except:
+            continue
+    
+    # Method 2: RFC 2822 format (Sat, 03 Jan 2026 06:53:25 GMT)
+    try:
+        dt = parsedate_to_datetime(date_string)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        else:
+            dt = dt.astimezone(timezone.utc)
+        return dt
+    except:
+        pass
+    
+    # Method 3: Handle timezone abbreviations if RFC parser fails
+    tz_replacements = {
+        'GMT': '+0000',
+        'UTC': '+0000',
+        'EST': '-0500',
+        'EDT': '-0400',
+        'CST': '-0600',
+        'CDT': '-0500',
+        'MST': '-0700',
+        'MDT': '-0600',
+        'PST': '-0800',
+        'PDT': '-0700',
+        'BST': '+0100',
+        'IST': '+0530',
+        'JST': '+0900',
+        'AEST': '+1000',
+        'AEDT': '+1100',
+    }
+    
+    for tz_abbr, tz_offset in tz_replacements.items():
+        if tz_abbr in date_string:
+            modified_date = date_string.replace(tz_abbr, tz_offset)
+            try:
+                dt = parsedate_to_datetime(modified_date)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                else:
+                    dt = dt.astimezone(timezone.utc)
+                return dt
+            except:
+                pass
+    
+    return None
+
 def fetch_titles_only():
     all_articles = []
     seen_links = set()
     now = datetime.now(timezone.utc)
     cutoff_time = now - timedelta(hours=26)
 
-    print(f"Time Filter: Articles after {cutoff_time.strftime('%Y-%m-%d %H:%M UTC')}", flush=True)
+    print(f"⏰ Time Filter: Articles after {cutoff_time.strftime('%Y-%m-%d %H:%M UTC')}", flush=True)
     headers = {'User-Agent': 'BCS-Curator/3.0-Ensemble'}
+
+    total_found = 0
+    time_filtered_out = 0
+    no_date_included = 0
+    parse_failed_included = 0
+    successfully_parsed = 0
 
     for url in URLS:
         try:
             r = requests.get(url, headers=headers, timeout=10)
-            if r.status_code != 200: continue
+            if r.status_code != 200:
+                print(f"   ⚠️  HTTP {r.status_code}: {url}", flush=True)
+                continue
 
             try:
                 root = ET.fromstring(r.content)
-            except: continue
+            except Exception as e:
+                print(f"   ⚠️  XML parse error: {url}", flush=True)
+                continue
 
             for item in root.findall('.//item'):
-                pub_date = item.find('pubDate').text if item.find('pubDate') is not None else ""
-                if not pub_date: continue
+                total_found += 1
+                
+                # Get link first
+                link = item.find('link')
+                link = link.text if link is not None and link.text else ""
+                if not link or link in seen_links:
+                    continue
 
-                try:
-                    dt = parsedate_to_datetime(pub_date)
-                    if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
-                    else: dt = dt.astimezone(timezone.utc)
-                    if dt < cutoff_time: continue
-                except: continue
-
-                link = item.find('link').text or ""
-                if not link or link in seen_links: continue
-
-                title = item.find('title').text or "No Title"
+                # Get title
+                title = item.find('title')
+                title = title.text if title is not None and title.text else "No Title"
                 title = title.strip()
+                
+                # Get and parse publication date
+                pub_date_elem = item.find('pubDate')
+                pub_date_str = pub_date_elem.text if pub_date_elem is not None and pub_date_elem.text else None
+                
+                include_article = True
+                final_pub_date = None
+                
+                if pub_date_str:
+                    parsed_date = parse_flexible_date(pub_date_str)
+                    
+                    if parsed_date:
+                        successfully_parsed += 1
+                        # Check if within time window
+                        if parsed_date < cutoff_time:
+                            include_article = False
+                            time_filtered_out += 1
+                        final_pub_date = pub_date_str  # Keep original format
+                    else:
+                        # Date string exists but couldn't parse - include anyway
+                        parse_failed_included += 1
+                        final_pub_date = pub_date_str  # Keep original even if unparseable
+                        print(f"   ⚠️  Failed to parse date: '{pub_date_str}' from {url}", flush=True)
+                else:
+                    # No date provided - include with current timestamp
+                    no_date_included += 1
+                    final_pub_date = now.strftime("%a, %d %b %Y %H:%M:%S +0000")
+                
+                if not include_article:
+                    continue
+                
                 seen_links.add(link)
 
+                # Get description
                 desc = item.find('description')
-                desc_text = desc.text if desc is not None else ""
+                desc_text = desc.text if desc is not None and desc.text else ""
 
                 all_articles.append({
                     "id": len(all_articles),
                     "title": title,
                     "link": link,
                     "description": desc_text or title,
-                    "pubDate": pub_date
+                    "pubDate": final_pub_date
                 })
-        except Exception: continue
+                
+        except Exception as e:
+            print(f"   ⚠️  Error processing feed: {url} - {str(e)}", flush=True)
+            continue
 
-    print(f"Loaded {len(all_articles)} unique headlines", flush=True)
+    print(f"\n📊 Feed Processing Statistics:", flush=True)
+    print(f"   Total items found:           {total_found}", flush=True)
+    print(f"   Successfully parsed dates:   {successfully_parsed}", flush=True)
+    print(f"   Filtered (too old):          {time_filtered_out}", flush=True)
+    print(f"   No date (included):          {no_date_included}", flush=True)
+    print(f"   Parse failed (included):     {parse_failed_included}", flush=True)
+    print(f"   ✅ Final unique articles:    {len(all_articles)}\n", flush=True)
+    
     return all_articles
 
 def extract_json_from_text(text):
@@ -293,63 +415,63 @@ def hierarchical_deduplication(articles, distance_threshold=0.35):
     """
     if not articles or len(articles) < 2:
         return articles
-    
+
     print(f"\n🧠 Hierarchical Deduplication (threshold={distance_threshold})...", flush=True)
-    
+
     try:
         # Generate embeddings
         titles = [a['title'] for a in articles]
         embeddings = embedding_model.encode(titles, show_progress_bar=False)
-        
+
         # Compute pairwise cosine distances
         from sklearn.metrics.pairwise import cosine_distances
         distance_matrix = cosine_distances(embeddings)
-        
+
         # Convert to condensed form for scipy
         condensed_distances = squareform(distance_matrix, checks=False)
-        
+
         # Hierarchical clustering using average linkage
         linkage_matrix = linkage(condensed_distances, method='average')
-        
+
         # Cut tree at threshold to get cluster labels
         cluster_labels = fcluster(linkage_matrix, t=distance_threshold, criterion='distance')
-        
+
         # Group articles by cluster
         clusters = {}
         for idx, label in enumerate(cluster_labels):
             if label not in clusters:
                 clusters[label] = []
             clusters[label].append((idx, articles[idx]))
-        
+
         # Keep the longest title from each cluster and store similar articles
         deduplicated = []
         duplicates_removed = 0
-        
+
         for cluster_id, cluster_articles in clusters.items():
             if len(cluster_articles) > 1:
                 duplicates_removed += len(cluster_articles) - 1
-            
+
             # Sort by title length (longest first)
             cluster_articles.sort(key=lambda x: len(x[1]['title']), reverse=True)
-            
+
             # Keep the best article
             best_article = cluster_articles[0][1].copy()
-            
+
             # Add clustered articles to metadata
             if len(cluster_articles) > 1:
                 similar_articles = [art[1] for art in cluster_articles[1:]]
                 best_article['clustered_articles'] = similar_articles
-            
+
             deduplicated.append(best_article)
-        
+
         # Sort back by original order (via id)
         deduplicated.sort(key=lambda x: x.get('id', 0))
-        
+
         print(f"   ✅ Removed {duplicates_removed} semantic duplicates", flush=True)
         print(f"   📊 {len(clusters)} unique clusters from {len(articles)} articles", flush=True)
-        
+
         return deduplicated
-        
+
     except Exception as e:
         print(f"   ⚠️  Deduplication failed: {e}, returning original list", flush=True)
         return articles
