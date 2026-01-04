@@ -41,13 +41,13 @@ MODELS = [
     {
         "name": "qwen/qwen3-32b",
         "display": "Qwen-3-32B",
-        "batch_size": 50,
+        "batch_size": 25,
         "api": "groq"
     },
     {
         "name": "openai/gpt-oss-120b",
         "display": "GPT-OSS-120B",
-        "batch_size": 50,
+        "batch_size": 25,
         "api": "groq"
     }
 ]
