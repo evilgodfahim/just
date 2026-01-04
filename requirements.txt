@@ -1,3 +1,9 @@
 google-generativeai
 requests
 lxml
+requests
+sentence-transformers
+scipy
+scikit-learn
+numpy
+torch
