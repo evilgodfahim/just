@@ -7,20 +7,25 @@ import re
 from xml.etree import ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from sentence_transformers import SentenceTransformer
-from scipy.cluster.hierarchy import linkage, fcluster
-from scipy.spatial.distance import squareform
 import numpy as np
 
 # --- Configuration ---
 MAX_FEED_ITEMS = 100
 
 URLS = [
-     "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+    "https://evilgodfahim.github.io/sci/daily_feed.xml",
+    "https://evilgodfahim.github.io/bdlb/final.xml",
+    "https://evilgodfahim.github.io/fp/final.xml",
+    "https://evilgodfahim.github.io/bdl/final.xml",
+    "https://evilgodfahim.github.io/int/final.xml",
+    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
     "https://evilgodfahim.github.io/daily/daily_master.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed.xml",
-    "https://evilgodfahim.github.io/edit/daily_feed.xml"
+    "https://evilgodfahim.github.io/edit/daily_feed.xml",
+    "https://evilgodfahim.github.io/ds/printversion.xml",
+    "https://politepaul.com/fd/BaUjoEn6s1Rx.xml",
+    "https://politepaul.com/fd/cjcFELwr80sj.xml"
 ]
 
 MODELS = [
@@ -77,15 +82,6 @@ GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
 # Semantic similarity threshold for deduplication
 SIMILARITY_THRESHOLD = 0.35  # Distance threshold for hierarchical clustering (1 - cosine_similarity)
-
-# --- Load embedding model ---
-print("🔄 Loading embedding model...")
-try:
-    embedding_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
-    print("✅ Model loaded successfully (all-mpnet-base-v2)")
-except Exception as e:
-    print(f"❌ Failed to load model: {e}")
-    sys.exit(1)
 
 # --- SYSTEM PROMPT ---
 SYSTEM_PROMPT = """You are a Chief Information Filter.
@@ -171,14 +167,6 @@ def save_xml(data, filename, error_message=None):
             html_desc = f"<p><b>[{category_info}]</b></p>"
             html_desc += f"<p><i>{reason_info}</i></p>"
             html_desc += f"<p><small>Selected by: {models_str}</small></p>"
-
-            # Add clustered similar articles if any
-            if 'clustered_articles' in art and art['clustered_articles']:
-                html_desc += "<hr/><p><b>📎 Similar Coverage:</b></p><ul>"
-                for similar in art['clustered_articles']:
-                    html_desc += f"<li><a href='{similar['link']}'>{similar['title']}</a></li>"
-                html_desc += "</ul>"
-
             html_desc += f"<hr/><p>{art['description']}</p>"
 
             ET.SubElement(item, "description").text = html_desc
@@ -503,7 +491,7 @@ def hierarchical_deduplication(articles, distance_threshold=0.35):
 
 def main():
     print("=" * 60, flush=True)
-    print("Elite News Curator - OpenRouter + Groq", flush=True)
+    print("Elite News Curator - Multi-API Ensemble", flush=True)
     print("=" * 60, flush=True)
 
     # Validate API keys
@@ -588,9 +576,6 @@ def main():
             final_articles.append(original)
     
     print(f"   ✅ {len(final_articles)} articles passed 2+ model consensus from {len(selections_map)} total selections", flush=True)
-
-    # Hierarchical deduplication
-    final_articles = hierarchical_deduplication(final_articles, distance_threshold=SIMILARITY_THRESHOLD)
 
     # Results
     print(f"\nRESULTS:", flush=True)
