@@ -49,15 +49,23 @@ MODELS = [
         "display": "GPT-OSS-120B",
         "batch_size": 25,
         "api": "groq"
+    },
+    {
+        "name": "deepseek-v3.1",
+        "display": "DeepSeek-V3.1",
+        "batch_size": 50,
+        "api": "fyra"
     }
 ]
 
 # API Keys and URLs
 GROQ_API_KEY = os.environ.get("GEM")
 OPENROUTER_API_KEY = os.environ.get("OP")
+FYRA_API_KEY = os.environ.get("FRY")
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+FYRA_API_URL = "https://api.fyra.im/v1/chat/completions"
 
 # Semantic similarity threshold for deduplication
 SIMILARITY_THRESHOLD = 0.35  # Distance threshold for hierarchical clustering (1 - cosine_similarity)
@@ -258,6 +266,13 @@ def call_model(model_info, batch):
             "HTTP-Referer": "https://github.com/evilgodfahim",
             "X-Title": "Elite News Curator"
         }
+    elif api_type == "fyra":
+        api_url = FYRA_API_URL
+        api_key = FYRA_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
     else:  # groq
         api_url = GROQ_API_URL
         api_key = GROQ_API_KEY
@@ -440,6 +455,11 @@ def main():
     if needs_openrouter and not OPENROUTER_API_KEY:
         print("::error::OP environment variable is missing!", flush=True)
         sys.exit(1)
+    
+    needs_fyra = any(m.get("api") == "fyra" for m in MODELS)
+    if needs_fyra and not FYRA_API_KEY:
+        print("::error::FRY environment variable is missing!", flush=True)
+        sys.exit(1)
 
     articles = fetch_titles_only()
     if not articles:
@@ -485,16 +505,19 @@ def main():
 
         time.sleep(30)  # Delay between batch groups
 
-    # Merging
+    # Merging - only keep articles selected by at least 2 models
     final_articles = []
-    print(f"\nMerging...", flush=True)
+    print(f"\nMerging (2+ model consensus required)...", flush=True)
     for aid, info in selections_map.items():
-        original = articles[aid].copy()
-        first_dec = info['decisions'][0]
-        original['category'] = first_dec.get('category', 'Priority')
-        original['reason'] = first_dec.get('reason', 'Systemic Significance')
-        original['selected_by'] = info['models']
-        final_articles.append(original)
+        if len(info['models']) >= 2:  # At least 2 models must agree
+            original = articles[aid].copy()
+            first_dec = info['decisions'][0]
+            original['category'] = first_dec.get('category', 'Priority')
+            original['reason'] = first_dec.get('reason', 'Systemic Significance')
+            original['selected_by'] = info['models']
+            final_articles.append(original)
+    
+    print(f"   ✅ {len(final_articles)} articles passed 2+ model consensus from {len(selections_map)} total selections", flush=True)
 
     # Hierarchical deduplication
     final_articles = hierarchical_deduplication(final_articles, distance_threshold=SIMILARITY_THRESHOLD)
