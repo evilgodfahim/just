@@ -35,6 +35,7 @@ jobs:
           GEM: ${{ secrets.GEM }}
           OP: ${{ secrets.OP }}
           FRY: ${{ secrets.FRY }}
+          GEM2: ${{ secrets.GEM2 }}
         run: python main.py
 
       - name: Push Filtered XML
