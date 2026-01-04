@@ -34,6 +34,7 @@ jobs:
         env:
           GEM: ${{ secrets.GEM }}
           OP: ${{ secrets.OP }}
+          FRY: ${{ secrets.FRY }}
         run: python main.py
 
       - name: Push Filtered XML
