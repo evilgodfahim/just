@@ -16,7 +16,7 @@ import numpy as np
 MAX_FEED_ITEMS = 100
 
 URLS = [
-     "https://evilgodfahim.github.io/sci/daily_feed.xml",
+    "https://evilgodfahim.github.io/sci/daily_feed.xml",
     "https://evilgodfahim.github.io/bdlb/final.xml",
     "https://evilgodfahim.github.io/fp/final.xml",
     "https://evilgodfahim.github.io/bdl/final.xml",
@@ -32,13 +32,32 @@ URLS = [
 ]
 
 MODELS = [
-    {"name": "llama-3.3-70b-versatile", "display": "Llama-3.3-70B", "batch_size": 40},
-    {"name": "qwen/qwen3-32b", "display": "Qwen-3-32B", "batch_size": 40},
-    {"name": "openai/gpt-oss-120b", "display": "GPT-OSS-120B", "batch_size": 40}
+    {
+        "name": "meta-llama/llama-3.3-70b-instruct",
+        "display": "Llama-3.3-70B",
+        "batch_size": 50,
+        "api": "openrouter"
+    },
+    {
+        "name": "qwen/qwen3-32b",
+        "display": "Qwen-3-32B",
+        "batch_size": 50,
+        "api": "groq"
+    },
+    {
+        "name": "openai/gpt-oss-120b",
+        "display": "GPT-OSS-120B",
+        "batch_size": 50,
+        "api": "groq"
+    }
 ]
 
+# API Keys and URLs
 GROQ_API_KEY = os.environ.get("GEM")
+OPENROUTER_API_KEY = os.environ.get("OP")
+
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Semantic similarity threshold for deduplication
 SIMILARITY_THRESHOLD = 0.35  # Distance threshold for hierarchical clustering (1 - cosine_similarity)
@@ -52,7 +71,7 @@ except Exception as e:
     print(f"❌ Failed to load model: {e}")
     sys.exit(1)
 
-# --- YOUR EXACT ORIGINAL PROMPT ---
+# --- SYSTEM PROMPT ---
 SYSTEM_PROMPT = """You are a Chief Information Filter.
 Your task is to select headlines with structural and lasting significance.
 You do not evaluate importance by popularity, novelty, or emotion.
@@ -139,14 +158,14 @@ def save_xml(data, filename, error_message=None):
             html_desc = f"<p><b>[{category_info}]</b></p>"
             html_desc += f"<p><i>{reason_info}</i></p>"
             html_desc += f"<p><small>Selected by: {models_str}</small></p>"
-            
+
             # Add clustered similar articles if any
             if 'clustered_articles' in art and art['clustered_articles']:
                 html_desc += "<hr/><p><b>📎 Similar Coverage:</b></p><ul>"
                 for similar in art['clustered_articles']:
                     html_desc += f"<li><a href='{similar['link']}'>{similar['title']}</a></li>"
                 html_desc += "</ul>"
-            
+
             html_desc += f"<hr/><p>{art['description']}</p>"
 
             ET.SubElement(item, "description").text = html_desc
@@ -227,10 +246,25 @@ def call_model(model_info, batch):
     prompt_list = [f"{a['id']}: {a['title']}" for a in batch]
     prompt_text = "\n".join(prompt_list)
 
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json"
-    }
+    # Select API based on model config
+    api_type = model_info.get("api", "groq")
+    
+    if api_type == "openrouter":
+        api_url = OPENROUTER_API_URL
+        api_key = OPENROUTER_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/evilgodfahim",
+            "X-Title": "Elite News Curator"
+        }
+    else:  # groq
+        api_url = GROQ_API_URL
+        api_key = GROQ_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
 
     payload = {
         "model": model_info["name"],
@@ -238,8 +272,7 @@ def call_model(model_info, batch):
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt_text}
         ],
-        "temperature": 0.3,
-        "max_tokens": 4096
+        "temperature": 0.3
     }
 
     max_retries = 5
@@ -247,7 +280,7 @@ def call_model(model_info, batch):
 
     for attempt in range(max_retries):
         try:
-            response = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=90)
+            response = requests.post(api_url, headers=headers, json=payload, timeout=90)
 
             if response.status_code == 200:
                 content = response.json()['choices'][0]['message']['content'].strip()
@@ -293,74 +326,80 @@ def hierarchical_deduplication(articles, distance_threshold=0.35):
     """
     if not articles or len(articles) < 2:
         return articles
-    
+
     print(f"\n🧠 Hierarchical Deduplication (threshold={distance_threshold})...", flush=True)
-    
+
     try:
         # Generate embeddings
         titles = [a['title'] for a in articles]
         embeddings = embedding_model.encode(titles, show_progress_bar=False)
-        
+
         # Compute pairwise cosine distances
         from sklearn.metrics.pairwise import cosine_distances
         distance_matrix = cosine_distances(embeddings)
-        
+
         # Convert to condensed form for scipy
         condensed_distances = squareform(distance_matrix, checks=False)
-        
+
         # Hierarchical clustering using average linkage
         linkage_matrix = linkage(condensed_distances, method='average')
-        
+
         # Cut tree at threshold to get cluster labels
         cluster_labels = fcluster(linkage_matrix, t=distance_threshold, criterion='distance')
-        
+
         # Group articles by cluster
         clusters = {}
         for idx, label in enumerate(cluster_labels):
             if label not in clusters:
                 clusters[label] = []
             clusters[label].append((idx, articles[idx]))
-        
+
         # Keep the longest title from each cluster and store similar articles
         deduplicated = []
         duplicates_removed = 0
-        
+
         for cluster_id, cluster_articles in clusters.items():
             if len(cluster_articles) > 1:
                 duplicates_removed += len(cluster_articles) - 1
-            
+
             # Sort by title length (longest first)
             cluster_articles.sort(key=lambda x: len(x[1]['title']), reverse=True)
-            
+
             # Keep the best article
             best_article = cluster_articles[0][1].copy()
-            
+
             # Add clustered articles to metadata
             if len(cluster_articles) > 1:
                 similar_articles = [art[1] for art in cluster_articles[1:]]
                 best_article['clustered_articles'] = similar_articles
-            
+
             deduplicated.append(best_article)
-        
+
         # Sort back by original order (via id)
         deduplicated.sort(key=lambda x: x.get('id', 0))
-        
+
         print(f"   ✅ Removed {duplicates_removed} semantic duplicates", flush=True)
         print(f"   📊 {len(clusters)} unique clusters from {len(articles)} articles", flush=True)
-        
+
         return deduplicated
-        
+
     except Exception as e:
         print(f"   ⚠️  Deduplication failed: {e}, returning original list", flush=True)
         return articles
 
 def main():
     print("=" * 60, flush=True)
-    print("Elite News Curator - HIERARCHICAL CLUSTERING", flush=True)
+    print("Elite News Curator - OpenRouter + Groq", flush=True)
     print("=" * 60, flush=True)
 
+    # Validate API keys
     if not GROQ_API_KEY:
         print("::error::GEM environment variable is missing!", flush=True)
+        sys.exit(1)
+    
+    needs_openrouter = any(m.get("api") == "openrouter" for m in MODELS)
+    if needs_openrouter and not OPENROUTER_API_KEY:
+        print("::error::OP environment variable is missing!", flush=True)
         sys.exit(1)
 
     articles = fetch_titles_only()
@@ -401,11 +440,11 @@ def main():
                         selections_map[aid]['models'].append(model_info['display'])
                         selections_map[aid]['decisions'].append(d)
             else:
-                 print(f"    [{model_info['display']}] No selections", flush=True)
+                print(f"    [{model_info['display']}] No selections", flush=True)
 
-            time.sleep(10)  # Increased delay between models
+            time.sleep(15)  # Delay between models
 
-        time.sleep(20)  # Increased delay between batch groups
+        time.sleep(30)  # Delay between batch groups
 
     # Merging
     final_articles = []
