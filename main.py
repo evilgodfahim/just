@@ -197,6 +197,11 @@ def fetch_titles_only():
                 except: continue
 
                 link = item.find('link').text or ""
+                if not link:
+                    # Fallback to guid if link is missing or empty
+                    guid = item.find('guid')
+                    link = guid.text if guid is not None else ""
+                
                 if not link or link in seen_links: continue
 
                 title = item.find('title').text or "No Title"
