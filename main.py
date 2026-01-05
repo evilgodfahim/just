@@ -21,6 +21,12 @@ URLS = [
 
 MODELS = [
     {
+        "name": "deepseek-chat",
+        "display": "DeepSeek-Chat",
+        "batch_size": 50,
+        "api": "deepseek"
+    },
+    {
         "name": "meta-llama/llama-3.3-70b-instruct",
         "display": "Llama-3.3-70B",
         "batch_size": 50,
@@ -393,6 +399,11 @@ def main():
 
     needs_fyra = any(m.get("api") == "fyra" for m in MODELS)
     if needs_fyra and not FYRA_API_KEY:
+        print("::error::FRY environment variable is missing!", flush=True)
+        sys.exit(1)
+    
+    needs_deepseek = any(m.get("api") == "deepseek" for m in MODELS)
+    if needs_deepseek and not DEEPSEEK_API_KEY:
         print("::error::FRY environment variable is missing!", flush=True)
         sys.exit(1)
 
