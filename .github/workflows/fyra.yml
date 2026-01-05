@@ -1,4 +1,4 @@
-name: Debug Fyra ID
+name: Debug Fyra Kimi
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ jobs:
   debug-api:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -18,52 +18,28 @@ jobs:
       - name: Install Requests
         run: pip install requests
 
-      - name: Run Diagnostic
+      - name: Run Kimi Diagnostic
         env:
           FRY: ${{ secrets.FRY }}
         run: |
           cat <<EOF > debug_fyra.py
           import os, requests, json
           
-          # URL from PDF Page 4
-          URL_MODELS = "https://fyra.im/v1/models"
-          URL_CHAT = "https://fyra.im/v1/chat/completions"
+          URL = "https://fyra.im/v1/chat/completions"
           KEY = os.environ.get("FRY")
-          TARGET = "deepseek-v3.1"
+          MODEL = "kimi-k2-instruct-0905"
           
-          print("--- FYRA DIAGNOSTIC ---")
-          
-          # 1. Check Available Models
-          print(f"1. Checking if API supports '{TARGET}'...")
-          try:
-              r = requests.get(URL_MODELS, headers={"Authorization": f"Bearer {KEY}"})
-              if r.status_code == 200:
-                  data = r.json()
-                  all_ids = [m['id'] for m in data.get('data', [])]
-                  ds_ids = [i for i in all_ids if 'deepseek' in i.lower()]
-                  print(f"   Found DeepSeek IDs: {ds_ids}")
-                  
-                  if TARGET in all_ids:
-                      print(f"   ✅ '{TARGET}' is officially supported.")
-                  else:
-                      print(f"   ⚠️ '{TARGET}' NOT found in list. API expects one of the IDs above.")
-              else:
-                  print(f"   Failed to list models: {r.status_code}")
-          except Exception as e:
-              print(f"   Connection Error: {e}")
-
-          # 2. Test Chat
-          print(f"\n2. Testing Chat with '{TARGET}'...")
+          print(f"Testing {MODEL}...")
           try:
               r = requests.post(
-                  URL_CHAT,
+                  URL,
                   headers={"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"},
-                  json={"model": TARGET, "messages": [{"role": "user", "content": "Hi"}]}
+                  json={"model": MODEL, "messages": [{"role": "user", "content": "Hi"}]}
               )
-              print(f"   Status: {r.status_code}")
-              print(f"   Response: {r.text}")
+              print(f"Status: {r.status_code}")
+              print(f"Response: {r.text}")
           except Exception as e:
-              print(f"   Chat Error: {e}")
+              print(f"Error: {e}")
           EOF
           
           python debug_fyra.py
