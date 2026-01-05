@@ -21,12 +21,6 @@ URLS = [
 
 MODELS = [
     {
-        "name": "deepseek-v3.1",
-        "display": "DeepSeek-V3.1",
-        "batch_size": 50,
-        "api": "fyra"
-    },
-    {
         "name": "meta-llama/llama-3.3-70b-instruct",
         "display": "Llama-3.3-70B",
         "batch_size": 50,
@@ -255,9 +249,9 @@ def call_model(model_info, batch):
             ],
             "temperature": 0.3
         }
-    elif api_type == "fyra":
-        api_url = FYRA_API_URL
-        api_key = FYRA_API_KEY
+    elif api_type == "deepseek":
+        api_url = DEEPSEEK_API_URL
+        api_key = DEEPSEEK_API_KEY
         headers = {
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
@@ -329,18 +323,20 @@ def call_model(model_info, batch):
                 try:
                     response_data = response.json()
                     
+                    # Check for error in response
+                    if 'error' in response_data:
+                        print(f"    [{model_info['display']}] API Error: {response_data.get('error', 'Unknown error')}", flush=True)
+                        continue
+                    
                     if api_type == "google":
                         content = response_data['candidates'][0]['content']['parts'][0]['text'].strip()
-                    elif api_type == "fyra":
-                        # DeepSeek via Fyra might have different structure
-                        if 'choices' in response_data:
-                            content = response_data['choices'][0]['message']['content'].strip()
-                        elif 'message' in response_data:
-                            content = response_data['message']['content'].strip()
-                        elif 'content' in response_data:
-                            content = response_data['content'].strip()
-                        else:
-                            print(f"    [{model_info['display']}] Unknown response format: {list(response_data.keys())}", flush=True)
+                    else:
+                        # Standard OpenAI format (works for deepseek, openrouter, groq, mistral)
+                        content = response_data['choices'][0]['message']['content'].strip()
+                    
+                except (KeyError, IndexError) as e:
+                    print(f"    [{model_info['display']}] Response parse error: {e}", flush=True)
+                    continue.keys())}", flush=True)
                             continue
                     else:
                         # Standard OpenAI format
