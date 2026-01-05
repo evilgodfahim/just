@@ -2,573 +2,615 @@
 <rss version="2.0">
   <channel>
     <title>Elite News Feed</title>
-    <lastBuildDate>Sun, 04 Jan 2026 14:33:03 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 05:49:50 +0600</lastBuildDate>
     <link>https://github.com/evilgodfahim</link>
     <description>AI-curated structural news feed</description>
     <item>
-      <title>‘Goodwill prevails’ as Bangladesh, India prioritise cooperation over confrontation</title>
-      <link>https://unb.com.bd/category/Bangladesh/goodwill-prevails-as-bangladesh-india-prioritise-cooperation-over-confrontation/176609</link>
-      <pubDate>Sat, 03 Jan 2026 15:14:44 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Bangladesh-India cooperation frameworks influence regional geopolitical and economic alignment.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Score: 10.0 | Appeared in 1 feeds]]&gt;&lt;/p&gt;</description>
+      <title>Building U.S. Drone Dominance Brick by Brick</title>
+      <link>https://www.thecipherbrief.com/drones-brick-by-brick</link>
+      <pubDate>Sun, 04 Jan 2026 21:38:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Mistral-Small, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;&lt;strong&gt;OPINION — &lt;/strong&gt;One of the things I loved about LEGO as a child was the ability to mix and match an endless amount of parts to create unique builds. Children (and some adults) gather around a bin of parts to create something new. Imagine being asked: “Build 10 houses in 30 minutes.” Everyone would come up with unique designs using various parts. Now, imagine a constraint: “You may only use red, 2x4, 2x2, and 1x2 bricks, white windows and doors, and it all has to fit on a green 32x32 baseplate.” Quickly, the limited supply causes a frantic scramble.&lt;/p&gt;&lt;p&gt;This scenario mirrors the recent call by the Department of War to &lt;a href="https://www.army.mil/article/289322/war_department_asks_industry_to_make_more_than_300k_drones_quickly_cheaply" rel="noopener noreferrer" target="_blank"&gt;&lt;u&gt;field 300,000 drones&lt;/u&gt;&lt;/a&gt; over two years. The conflict in &lt;a href="https://www.thecipherbrief.com/inside-ukraine-s-innovation-under-fire" target="_self"&gt;&lt;u&gt;Ukraine&lt;/u&gt;&lt;/a&gt; exposed the U.S.'s lack of preparedness to equip forces with Purpose Built Attritable Systems (PBAS) at the scale of its peer competitors. Further, manufacturers are restricted by the requirement for critical components to be NDAA / BlueUAS compliant and, as of December 22nd, &lt;a href="https://docs.fcc.gov/public/attachments/DA-25-1086A1.pdf" rel="noopener noreferrer" target="_blank"&gt;even &lt;u&gt;more restrictions&lt;/u&gt;&lt;/a&gt; which demand non-critical components be U.S.-manufactured. The defense industrial base is struggling to meet unprecedented demand.&lt;/p&gt;&lt;div class="embed-related"&gt;&lt;/div&gt;&lt;p&gt;While numerous startups and giants have stepped up, the U.S. supply chain cannot sustain the required pace. Existing suppliers’ manufacturing capabilities are quickly surpassed as companies scramble to design, build, and market the requested systems.&lt;/p&gt;&lt;p&gt;sUAS are fundamentally basic, consisting of a flight controller (FC), electronic speed controller (ESC), motors, propellers, camera, radio/video transmitters, receivers, and a frame. The main problem is the &lt;a href="https://www.thecipherbrief.com/ukraine-drones-russia-china" target="_self"&gt;&lt;u&gt;availability of parts&lt;/u&gt;&lt;/a&gt; and, more critically, sub-components needed to make them. Manufacturers are all reaching into the same scarce “bin,” forcing suppliers to seek materials with increased vigor.&lt;/p&gt;&lt;p&gt;Motors, for instance, require neodymium and copper. The majority of motor production occurs outside of the U.S., where technology is mature, labor costs are lower, and the supply chain exists. However, the sUAS industry accounts for less than 8% of neodymium consumption in the U.S. Returning to the LEGO analogy, if a child asks for more 1x1 red bricks to make houses, LEGO, which (in this scenario) makes over 90% of its money on other parts, has little incentive to retool for large-scale 1x1 brick production.&lt;/p&gt;&lt;p&gt;Similarly, most FC and ESC boards are produced in Taiwan. While this was permissible under the original NDAA and BlueUAS frameworks, the new requirement for U.S. production necessitates standing up domestic manufacturing, likely to ensure production continues in the event that trade with Taiwan is disrupted. However, standing up U.S. companies, sourcing materials, hiring labor, and developing technology all create significant costs that are passed to the consumer. Since PBAS systems must remain &lt;em&gt;&lt;em&gt;attritable&lt;/em&gt;&lt;/em&gt; (affordable enough to be lost in combat), a higher cost per unit will force warfighters to be more judicious.&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;What national security news are you missing today? Get full access to your own national security daily brief by upgrading to &lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;a href="https://www.thecipherbrief.com/subscriber-plus" target="_self"&gt;&lt;u&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;Subscriber+Member&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/u&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt; status.&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p&gt;Given the intense demand and additional domestic constraints, how can the U.S. remain competitive? There are a few ways.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Incentivize existing global manufacturers to stand up U.S.-based manufacturing. &lt;/strong&gt;Companies with existing technology, design, manufacturing, and supply chains should be incentivized to establish domestic production of like products.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Encourage raw material companies to invest upstream.&lt;/strong&gt; Critical material mining companies (e.g., for lithium and neodymium) currently lack incentive to ensure stable, consistent supply to manufacturers. Encouraging investment upstream offers supply chain guarantees for domestic manufacturing and additional revenue for investors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Establish a “strategic reserve” of raw materials.&lt;/strong&gt; The U.S. maintains strategic oil and gas reserves. For future conflicts, a strategic reserve of &lt;a href="https://www.thecipherbrief.com/for-the-trump-administration-policy-often-involves-a-hunt-for-minerals" target="_self"&gt;&lt;u&gt;critical sUAS materials&lt;/u&gt;&lt;/a&gt; is vital given the global stranglehold countries like China have on the market to enable rapid manufacturing scale-up even if trade is disrupted.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Increase throughput of BlueUAS and NDAA compliant components from outside the U.S. &lt;/strong&gt;Maintaining U.S. connectivity to the global sUAS marketplace is important. While the restrictions are righteous, isolating U.S. production strains the raw material supply chain, causes allies to follow suit, and increases the overall cost per unit, reducing attritability. The U.S. should use the BlueUAS framework, with increased throughput, to identify compliant vendors across a wide section of allies and trade partners.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Expedite current NDAA compliant components manufactured overseas through BlueUAS processes.&lt;/strong&gt; As manufacturing shifts to the U.S., the U.S. could provide ‘provisional’ BlueUAS certifications with limited durations to cover companies during the transition.&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;/div&gt;&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;Sign up for the &lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;a href="http://www.cyberinitiativesgroup.com/" rel="noopener noreferrer" target="_blank"&gt;&lt;u&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;Cyber Initiatives Group&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/u&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt; Sunday newsletter, delivering expert-level insights on the cyber and tech stories of the day – directly to your inbox. Sign up for the &lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;a href="https://thecipherbrief.us10.list-manage.com/subscribe?u=9775ab595d580738d839f9d01&amp;amp;id=9307211312" rel="noopener noreferrer" target="_blank"&gt;&lt;u&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;CIG newsletter&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/u&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt; today.&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;div class="horizontal-rule"&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;Without a temporary easement or an adequate transitional period, the U.S. drone market is likely to shift abruptly. Many companies cannot afford to stand up U.S. production, or the cost of compliance would render their price points untenable. This situation would likely result in defense giants acquiring the IP/technology from smaller companies at a steep discount, leveraging their supply networks, lobbying, and significant capital advantage to continue development and manufacturing under their umbrella, returning the U.S. defense ecosystem to its former exclusive state, prior to the &lt;a href="https://www.thecipherbrief.com/defense-acquisition-arsenal-freedom" target="_self"&gt;&lt;u&gt;recent tranche of reforms&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The U.S. is at a critical inflection point in its quest for American Drone Dominance. The foundation it establishes will define its final strength and resilience. Care must be taken to avoid supply chain degradation, continue providing affordable solutions for the warfighter, and remain flexible and responsive in future crises. Incentivizing domestic production without isolation will ensure the U.S. has all the pieces it needs to build successfully, brick by brick.&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;The Cipher Brief is committed to publishing a range of perspectives on national security issues submitted by deeply experienced national security professionals.&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;Opinions expressed are those of the author and do not represent the views or opinions of The Cipher Brief.&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;Who's reading this?  500K+ dedicated national security professionals. Have a perspective to share based on your experience in the national security field? Send it to Editor@thecipherbrief.com for publication consideration.&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt;Read more expert-driven national security insights, perspective and analysis in&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;a href="http://www.thecipherbrief.com/" target="_self"&gt;&lt;u&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt; The Cipher Brief&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/u&gt;&lt;/a&gt;&lt;em&gt;&lt;strong&gt;&lt;em&gt; because national security is everyone’s business.&lt;/em&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>NBR beats VAT registration target in Dec</title>
-      <link>https://www.thedailystar.net/business/economy/news/nbr-beats-vat-registration-target-dec-4072491</link>
-      <pubDate>Sat, 03 Jan 2026 19:37:11 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article notes that the National Board of Revenue exceeded its VAT registration target in December, indicating a potential increase in tax revenue.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 93.3 | &lt;b&gt;Covered by:&lt;/b&gt; 9 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 6.5&lt;br&gt;&lt;br&gt;&lt;b&gt;Matched titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://www.newagebd.net/post/economy/287070/nbr-registers-131-lakh-new-vat-payers-in-december'&gt;NBR registers 1.31 lakh new VAT payers in December&lt;/a&gt;&lt;br&gt;- &lt;a href='https://tob.news/nbr-brings-1-31-lakh-businesses-under-vat-in-dec/'&gt;NBR brings 1.31 lakh businesses under VAT in Dec&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thedailystar.net/business/news/nbr-surpasses-vat-registration-target-december-4072096'&gt;NBR surpasses VAT registration target in December&lt;/a&gt;&lt;br&gt;- &lt;a href='https://bangladeshpost.net/posts/nbr-adds-131-000-new-vat-payers-in-december-165969'&gt;NBR adds 131,000 new VAT payers in December&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.daily-sun.com/business/849549/nbr-adds-131-000-new-vat-payers-in-dec-through-nationwide-drive'&gt;NBR adds 131,000 new VAT payers in Dec through nationwide drive&lt;/a&gt;&lt;br&gt;- &lt;a href='https://thefinancialexpress.com.bd/trade/nbr-adds-131000-new-vat-payers-in-december'&gt;NBR adds 131,000 new VAT payers in December&lt;/a&gt;&lt;br&gt;- &lt;a href='https://unb.com.bd/category/Bangladesh/nbr-adds-131000-new-vat-payers-in-december/176569'&gt;NBR adds 131,000 new VAT payers in December&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.observerbd.com/news/560768'&gt;NBR registers 131,000 new VAT payers in Dec&lt;/a&gt;&lt;br&gt;- &lt;a href='https://unb.com.bd/category/Bangladesh/nbr-adds-131000-new-vat-payers-in-dec-through-nationwide-drive/176569'&gt;NBR adds 131,000 new VAT payers in Dec through nationwide drive&lt;/a&gt;&lt;br&gt;- &lt;a href='https://tob.news/nbr-registers-1-31-lakh-new-vat-payers-last-month/'&gt;NBR registers 1.31 lakh new VAT payers last month&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.tbsnews.net/nbr/nbr-registers-131000-new-vat-payers-december-1325021'&gt;NBR registers 1.31 lakh new VAT payers in December&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.bssnews.net/news/347360'&gt;NBR registers 131,000 new VAT payers in December&lt;/a&gt;&lt;/p&gt;</description>
+      <title>Ukraine’s power grid is struggling under Russia’s blitz</title>
+      <link>https://archive.is/o/nuunc/https://www.economist.com/europe/2026/01/04/ukraines-power-grid-is-struggling-under-russias-blitz</link>
+      <pubDate>Sun, 04 Jan 2026 13:28:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Mistral-Small, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Putin is trying ever harder to freeze Kyiv into submission&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Wahiduzzaman promoted to director of Bangladesh Bank</title>
-      <link>https://thefinancialexpress.com.bd/national/wahiduzzaman-promoted-to-director-of-bangladesh-bank</link>
-      <pubDate>Sat, 03 Jan 2026 14:37:12 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Leadership changes in central banking affect monetary policy execution and institutional direction.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 32.1 | &lt;b&gt;Covered by:&lt;/b&gt; 3 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 4.2&lt;/p&gt;</description>
+      <title>বিমানবন্দর ভিত্তিক অর্থনীতি: আকাশপথ ঘিরে নতুন সমৃদ্ধির নকশা. [ dhakamail ]</title>
+      <link>https://dhakamail.com/opinion/277820</link>
+      <pubDate>Sun, 04 Jan 2026 06:31:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Mistral-Small, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিমানবন্দর ভিত্তিক অর্থনীতি: আকাশপথ ঘিরে নতুন সমৃদ্ধির নকশা. [ dhakamail ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Businesses underprepared as LDC graduation clock ticks</title>
-      <link>https://www.thedailystar.net/business/economy/news/businesses-underprepared-ldc-graduation-clock-ticks-4072506</link>
-      <pubDate>Sat, 03 Jan 2026 20:22:11 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Economic &amp; Resource Flows]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Shows how LDC graduation reshapes trade status and business expectations globally&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 17.0 | &lt;b&gt;Covered by:&lt;/b&gt; 1 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 14.0&lt;/p&gt;</description>
+      <title>ভ্যাটনির্ভর কর কাঠামো ও সমাজ-রাজনীতি. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/158917/-ভ্যাটনির্ভর-কর-কাঠামো-ও-সমাজরাজনীতি</link>
+      <pubDate>Sun, 04 Jan 2026 05:43:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Mistral-Small, Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿মানব ইতিহাসের দীর্ঘ পরিক্রমায় কর ব্যবস্থা কেবল রাষ্ট্রীয় কোষাগার পূর্ণ ...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Construction slump likely to persist in 2026</title>
-      <link>https://www.thedailystar.net/business/economy/news/construction-slump-likely-persist-2026-4072496</link>
-      <pubDate>Sat, 03 Jan 2026 19:52:11 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Economic &amp; Resource Flows]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Indicates a persistent construction sector slowdown affecting capital deployment and employment&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 17.0 | &lt;b&gt;Covered by:&lt;/b&gt; 1 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 14.0&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলা সংকটের আড়ালে যুক্তরাষ্ট্র-চীন দ্বন্দ্ব. [ shomoyeralo ]</title>
+      <link>https://www.shomoyeralo.com/news/342480</link>
+      <pubDate>Mon, 05 Jan 2026 02:27:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলা সংকটের আড়ালে যুক্তরাষ্ট্র-চীন দ্বন্দ্ব. [ shomoyeralo ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Jute sector losing edge due to high costs, old technology</title>
-      <link>https://www.thedailystar.net/business/economy/news/jute-sector-losing-edge-due-high-costs-old-technology-4072421</link>
-      <pubDate>Sat, 03 Jan 2026 19:07:11 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Economic &amp; Resource Flows]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Highlights cost and technology pressures that are restructuring the jute industry's competitiveness&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 17.0 | &lt;b&gt;Covered by:&lt;/b&gt; 1 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 14.0&lt;/p&gt;</description>
+      <title>The Trump Doctrine in Venezuela</title>
+      <link>https://archive.is/o/xWwb1/https://www.project-syndicate.org/commentary/us-venezuela-intervention-reflects-trump-national-security-strategy-by-richard-haass-2026-01</link>
+      <pubDate>Sun, 04 Jan 2026 11:38:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;The US military operation to arrest Nicolás Maduro underscores President Donald Trump’s view of the Western Hemisphere as a region where US interests take precedence. Russia and China will welcome this as a sign that Trump shares their vision of a world divided into spheres of influence.&lt;/p&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ctg port’s turbulent 2025 ends with record gains amid protests and policy rifts</title>
-      <link>https://www.tbsnews.net/economy/industry/ctg-ports-turbulent-2025-ends-record-gains-amid-protests-and-policy-rifts-1325646</link>
-      <pubDate>Sun, 04 Jan 2026 03:00:00 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Governance &amp; Control]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Reveals policy rifts and governance challenges at Chittagong port influencing trade regulation&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 16.0 | &lt;b&gt;Covered by:&lt;/b&gt; 1 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 12.0&lt;/p&gt;</description>
+      <title>নির্বাচন ঘিরে বিএনপি-জামায়াতের হিসাবনিকাশ. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/online/opinion/2026/01/04/1628982</link>
+      <pubDate>Sun, 04 Jan 2026 09:31:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নির্বাচন ঘিরে বিএনপি-জামায়াতের হিসাবনিকাশ. [ kalerkantho ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>BSEC cuts SME board entry threshold to Tk10 lakh to boost liquidity</title>
-      <link>https://www.tbsnews.net/economy/stocks/bsec-cuts-sme-board-entry-threshold-tk10-lakh-boost-liquidity-1325531</link>
-      <pubDate>Sat, 03 Jan 2026 16:10:00 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article reports on the Bangladesh Securities and Exchange Commission's decision to lower the entry threshold for the SME board to Tk10 lakh, which aims to boost liquidity in the market.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 16.0 | &lt;b&gt;Covered by:&lt;/b&gt; 1 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 12.0&lt;/p&gt;</description>
+      <title>ভিন্নমতের প্রতি সহনশীল সমাজ নির্মাণ কীভাবে সম্ভব. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/0xrvcit949</link>
+      <pubDate>Sun, 04 Jan 2026 08:52:25 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, Mistral-Small, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভিন্নমতের প্রতি সহনশীল সমাজ নির্মাণ কীভাবে সম্ভব. [ prothomalo ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>VAT base expands thru spl registration drive</title>
-      <link>https://thefinancialexpress.com.bd/economy/bangladesh/vat-base-expands-thru-spl-registration-drive</link>
-      <pubDate>Sun, 04 Jan 2026 01:56:16 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article notes that the VAT base has expanded through a special registration drive, indicating an increase in tax revenue and a broader tax base.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Importance:&lt;/b&gt; 15.5 | &lt;b&gt;Covered by:&lt;/b&gt; 1 feeds | &lt;b&gt;Reputation:&lt;/b&gt; 11.0&lt;/p&gt;</description>
+      <title>বিএনপি-জামায়াতের নির্বাচনি হিসাব-নিকাশ. [ dhakamail ]</title>
+      <link>https://dhakamail.com/opinion/277837</link>
+      <pubDate>Sun, 04 Jan 2026 07:38:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিএনপি-জামায়াতের নির্বাচনি হিসাব-নিকাশ. [ dhakamail ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trump says US oil firms to head into Venezuela</title>
-      <link>https://www.thedailystar.net/news/world/usa/news/trump-says-us-oil-firms-head-venezuela-4072356</link>
-      <pubDate>Sat, 03 Jan 2026 17:42:59 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Power Relations &amp; Strategy]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Signals a strategic shift in US energy policy toward direct involvement in Venezuela&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 101.6 | Covered by 10 feeds | Reputation: 3.1&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://archive.is/o/N6yE6/https://www.nytimes.com/2026/01/03/us/politics/trump-venezuela-oil-risks.html'&gt;Trump Plunges the U.S. Into a New Era of Risk in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.ft.com/content/6df65f0a-bcbc-4ac8-a0d3-0d2537b3da05'&gt;Trump topples Maduro and vows to ‘run’ Venezuela in stark display of US power&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/world-news/us-strikes-on-venezuela-trump-says-us-will-run-venezuela-and-fix-oil-infrastructure/videoshow/126330204.cms'&gt;US strikes on Venezuela: Trump says US will 'run' Venezuela and 'fix oil infrastructure'&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/world-news/trump-plunges-the-u-s-into-a-new-era-of-risk-in-venezuela/articleshow/126330203.cms'&gt;Trump plunges the US into a new era of risk in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/world-news/donald-trumps-bet-on-regime-change-in-venezuela-is-a-sharp-departure-from-maga-agenda/articleshow/126330163.cms'&gt;Donald Trump's bet on regime change in Venezuela is a sharp departure from MAGA agenda&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.ft.com/content/b395033a-bb3a-4022-a58c-60594e73512c'&gt;Trump bets US will extract ‘tremendous’ oil wealth from Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/united-states/trump-says-us-will-run-venezuela-as-maduro-lands-in-new-york'&gt;Trump says US will run Venezuela as Maduro lands in New York&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/united-states/we-are-going-to-run-the-country-trump-bets-on-regime-change-in-venezuela'&gt;Trump bets on regime change in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.ft.com/content/8e3b1a88-b037-457c-8ca8-798f203b6011'&gt;How will Trump ‘run’ Venezuela?&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theepochtimes.com/us/venezuelas-broken-oil-industry-and-trumps-plan-to-rebuild-it-after-maduros-ouster-5965710'&gt;Venezuela’s Broken Oil Industry and Trump’s Plan to Rebuild It After Maduro’s Ouster&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.channelnewsasia.com/commentary/trump-venezuela-maduro-implication-drugs-snap-insight-5788261'&gt;Snap Insight: US attack on Venezuela further erodes what is left of old world order&lt;/a&gt;&lt;br&gt;- &lt;a href='https://time.com/7342994/trump-maduro-regime-change-maga/'&gt;Donald Trump Is Risking His MAGA Base on Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theepochtimes.com/us/trump-says-us-will-run-venezuela-in-interim-what-we-know-so-far-5965735'&gt;Trump Says US Will Run Venezuela in Interim: What We Know So Far&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/we-are-going-to-run-the-country-trump-bets-on-regime-change-in-venezuela'&gt;'We are going to run the country.' Trump bets on regime change in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/we-are-going-to-run-this-country-trump-bets-on-regime-change-in-venezuela'&gt;'We are going to run this country.' Trump bets on regime change in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.scmp.com/news/china/article/3338641/trump-says-us-will-run-venezuela-keep-oil-flowing-china-after-maduro-capture?utm_source=rss_feed'&gt;Trump says US will ‘run Venezuela’, keep oil flowing to China after Maduro capture&lt;/a&gt;&lt;br&gt;- &lt;a href='https://apnews.com/video/trump-says-us-is-going-to-run-venezuela-until-a-safe-transition-of-power-can-take-place-4c4d16e6823b45a99d9ec97df0620c8a'&gt;Trump says US is ‘going to run’ Venezuela until a safe transition of power can take place&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.tbsnews.net/world/trump-says-us-will-run-venezuela-until-safe-have-transition-1325591'&gt;Trump says US will run Venezuela until 'safe' to have a transition&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/venezuela-explosions-trump-press-conference-maduro-us-tension/article70468812.ece'&gt;U.S. will ‘run’ Venezuela until safe, judicious transition is possible, says Trump after Maduro capture&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.bbc.com/news/videos/c368px35ly8o?at_medium=RSS&amp;at_campaign=rss'&gt;Trump on Venezuela: 'We are going to run the country'&lt;/a&gt;&lt;br&gt;- &lt;a href='https://thefinancialexpress.com.bd/world/nicolas-maduros-heavy-handed-rule-in-venezuela-is-finally-ended-by-trump'&gt;Trump ends Maduro’s heavy-handed rule in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/world-news/us-going-to-run-venezuela-until-trump-drops-bombshell-details-of-capture-maduro-operation/videoshow/126326275.cms'&gt;'US going to run Venezuela until…': Trump drops bombshell details of ‘Capture Maduro’ operation&lt;/a&gt;&lt;br&gt;- &lt;a href='https://unb.com.bd/category/World/us-will-run-venezuela-until-safe-transition-can-take-place-trump/176620'&gt;US will 'run' Venezuela until 'safe transition can take place': Trump&lt;/a&gt;&lt;br&gt;- &lt;a href='https://thehill.com/homenews/administration/5671157-trump-venezuela-oil-production/'&gt;Trump says US will 'run' Venezuela, control oil production&lt;/a&gt;&lt;br&gt;- &lt;a href='https://time.com/7342937/venezuela-trump-maduro-oil/'&gt;‘We’re Going To Run the Country’: Trump Signals Long-Term Involvement in Venezuela After Capturing President&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.dawn.com/news/1964860/trump-says-us-will-run-venezuela-until-safe-transition-following-maduros-capture'&gt;Trump says US ‘will run’ Venezuela until ‘safe’ transition following Maduro’s capture&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.aljazeera.com/news/2026/1/3/trump-says-us-will-run-venezuela-after-nicolas-maduro-seized?traffic_source=rss'&gt;Trump says US will ‘run’ Venezuela after Nicolas Maduro seized&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/global-trends/trump-warns-of-bigger-attack-on-venezuela-if-needed-hints-at-power-transition-after-maduros-capture/articleshow/126325259.cms'&gt;Trump warns of ‘bigger attack’ on Venezuela 'if needed', hints at 'power transition' after Maduro’s capture&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.hindustantimes.com/world-news/trump-in-uncharted-territory-with-venezuela-regime-change-op-what-comes-after-nicolas-maduros-capture-and-removal-101767457385620.html'&gt;Trump in uncharted territory with Venezuela regime-change op: What comes after Nicolas Maduro? Explained&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.channelnewsasia.com/world/trump-maduro-wife-capture-operation-venezuela-strikes-drug-charges-5788026'&gt;Trump says US will 'run' Venezuela until 'safe' transition&lt;/a&gt;&lt;br&gt;- &lt;a href='https://thehill.com/homenews/administration/5671113-trump-venezuela-oil/'&gt;Trump says the US will be ‘very strongly involved’ in Venezuelan oil&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theepochtimes.com/us/trump-says-us-will-run-venezuela-until-transition-5965654'&gt;Trump Says US Will Run Venezuela Until Transition&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/united-states/trump-says-us-will-run-venezuela-until-safe-transition'&gt;Trump says US 'will run' Venezuela until 'safe' transition&lt;/a&gt;&lt;br&gt;- &lt;a href='https://archive.is/o/N6yE6/https://www.nytimes.com/2026/01/03/world/americas/us-venezuela-tensions-timeline.html'&gt;A Timeline of Rising Tension Between the U.S. and Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/europe/un-chief-on-venezuela-us-action-sets-dangerous-precedent'&gt;UN chief on Venezuela: US action sets 'dangerous precedent'&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.bbc.com/news/articles/c0q4dg1kn8vo?at_medium=RSS&amp;at_campaign=rss'&gt;Trump's move to topple Maduro is fraught with risk - what happens next is unclear&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theguardian.com/us-news/2026/jan/03/trump-venezuela-oil-industry'&gt;Trump says US will be ‘very strongly involved’ in Venezuela’s oil industry after military attack&lt;/a&gt;&lt;br&gt;- &lt;a href='https://news.un.org/feed/view/en/story/2026/01/1166698'&gt;US actions in Venezuela ‘constitute a dangerous precedent’: Guterres&lt;/a&gt;&lt;br&gt;- &lt;a href='https://thehill.com/policy/international/5671034-world-reaction-trump-venezuela-maduro/'&gt;Trump's Venezuela operation polarizes world leaders&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theguardian.com/world/2026/jan/03/putin-russia-us-foreign-policy-venezuela'&gt;The ‘Putinization’ of US foreign policy has arrived in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thedailystar.net/news/world/news/us-venezuela-sanctions-military-action-4072206'&gt;US-Venezuela: from sanctions to military action&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.aljazeera.com/opinions/2026/1/3/venezuela-american-regime-change-with-a-trumpian?traffic_source=rss'&gt;Venezuela: American regime change with a Trumpian twist&lt;/a&gt;&lt;br&gt;- &lt;a href='https://archive.is/o/N6yE6/https://www.nytimes.com/2026/01/03/world/americas/venezuela-us-tensions.html'&gt;How Tensions Escalated Between the U.S. and Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.ft.com/content/689b7aa1-e912-43bc-b536-6c90ef0aa7bc'&gt;From rising revolutionary to Trump’s captive: Venezuela’s Nicolás Maduro&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theatlantic.com/international/2026/01/trumps-risky-war-in-venezuela/685485/?utm_source=feed'&gt;Trump’s Risky War in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/united-states/us-venezuela-ties-from-sanctions-to-military-action'&gt;US-Venezuela ties: From sanctions to military action&lt;/a&gt;&lt;br&gt;- &lt;a href='https://sputnikglobe.com/20260103/us-strikes-on-venezuela-oil-grab--latin-america-fear-tactics---analyst-1123411106.html'&gt;US Strikes on Venezuela: Oil Grab &amp; Latin America Fear Tactics - Analyst&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.ft.com/content/4bafa7a0-6822-4e77-b0fd-b32bea4479ff'&gt;Timeline: how Trump’s threats against Venezuela unfolded&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.ft.com/content/be298195-ad2c-4328-a20f-88a6a4b59868'&gt;How Trump’s strikes shocked Venezuela’s capital&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/world-news/us-bombs-venezuela-blasts-smoke-and-power-cuts-rock-caracas-as-trump-vs-maduro-escalates/videoshow/126320524.cms'&gt;US ‘bombs’ Venezuela: Blasts, smoke and power cuts rock Caracas as Trump vs Maduro escalates&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.daily-sun.com/world/849560/trump-bombs-venezuelan-land-for-first-time-is-war-imminent'&gt;Trump bombs Venezuelan land for first time: Is war imminent?&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>সিন্ডিকেট ভাঙতে কার্যকর পদক্ষেপ চাই. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/158918/-সিন্ডিকেট-ভাঙতে-কার্যকর-পদক্ষেপ-চাই</link>
+      <pubDate>Sun, 04 Jan 2026 06:56:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, Mistral-Small, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿হঠাৎ করেই বাজার থেকে উধাও হয়ে গেছে এলপিজি। ফলে সারা ...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Riyadh urges dialogue between Yemen factions</title>
-      <link>https://www.thedailystar.net/news/world/middle-east/news/riyadh-urges-dialogue-between-yemen-factions-4072606</link>
-      <pubDate>Sat, 03 Jan 2026 23:23:33 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Power Relations &amp; Strategy]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Illustrates Saudi Arabia's diplomatic push to shape the Yemen conflict's political trajectory&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 83.0 | Covered by 8 feeds | Reputation: 6.1&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://www.jpost.com/middle-east/article-882194'&gt;Yemen's southern separatists welcome Saudi call for dialogue amid Saudi-UAE rift&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.scmp.com/news/world/middle-east/article/3338642/yemen-presidential-council-chief-says-pro-saudi-forces-regain-province-separatists?utm_source=rss_feed'&gt;Yemen presidential council chief says pro-Saudi forces regain province from separatists&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.daily-sun.com/world/849712/yemen-s-southern-separatists-welcome-saudi-call-for-dialogue'&gt;Yemen's southern separatists welcome Saudi call for dialogue&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.hindustantimes.com/world-news/us-news/yemens-southern-separatists-welcome-saudi-101767471082629.html'&gt;Yemen's southern separatists welcome Saudi&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.bbc.com/news/articles/cjrz34qdr9no?at_medium=RSS&amp;at_campaign=rss'&gt;Saudi Arabia calls for Yemeni factions to attend 'dialogue' in Riyadh&lt;/a&gt;&lt;br&gt;- &lt;a href='https://english.news.cn/20260103/14e807f9218c4255b3cedca9eb5c7343/c.html'&gt;Saudi Arabia to host dialogue conference among all Yemeni southern factions&lt;/a&gt;&lt;br&gt;- &lt;a href='https://unb.com.bd/category/World/saudi-arabia-backs-yemen-request-for-talks-to-end-southern-fighting/176585'&gt;Saudi Arabia backs Yemen request for talks to end southern fighting&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.aljazeera.com/news/2026/1/3/saudi-arabia-welcomes-request-from-yemen-to-help-resolve-southern-battle?traffic_source=rss'&gt;Saudi Arabia welcomes request from Yemen to help resolve southern battle&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/middle-east/saudi-calls-yemens-southern-factions-to-dialogue-in-riyadh'&gt;Saudi calls Yemen’s southern factions to ‘dialogue’ in Riyadh&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.aljazeera.com/news/liveblog/2026/1/3/live-saudi-arabia-invites-yemeni-factions-for-dialogue-amid-fighting?traffic_source=rss'&gt;Live: Saudi Arabia invites Yemeni factions for ‘dialogue’ amid fighting&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.tbsnews.net/world/yemens-southern-separatists-call-path-independence-amid-fighting-over-key-region-1325086'&gt;Yemen's southern separatists call for path to independence amid fighting over key region&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.daily-sun.com/world/849538/yemen-separatists-announce-two-year-transition-towards-independence-in-south'&gt;Yemen separatists announce two-year transition towards independence in south&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.daily-sun.com/world/849531/saudi-calls-yemen-s-southern-factions-to-dialogue-in-riyadh'&gt;Saudi calls Yemen's southern factions to 'dialogue' in Riyadh&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.daily-sun.com/world/849529/yemen-s-southern-separatists-call-for-path-to-independence-amid-fighting-over-key-region'&gt;Yemen's southern separatists call for path to independence amid fighting over key region&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/saudi-calls-yemens-southern-factions-to-dialogue-in-riyadh/article70466458.ece'&gt;Saudi calls Yemen's southern factions to 'dialogue' in Riyadh&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thedailystar.net/news/world/news/saudi-calls-yemens-southern-factions-dialogue-riyadh-4071926'&gt;Saudi calls Yemen's southern factions to 'dialogue' in Riyadh&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.jpost.com/middle-east/article-882148'&gt;Yemen calls for Saudi Arabia hold peace summit with UAE, Southern Transition Council&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলায় আক্রমণ আমেরিকার, রাশিয়া কী করবে?. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/analysis#e536aea814e3cbe92326bddd919397d7</link>
+      <pubDate>Sun, 04 Jan 2026 06:31:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলায় আক্রমণ আমেরিকার, রাশিয়া কী করবে?. [ chaarcha ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>First phase of myanmar polls: Military-backed party takes lead</title>
-      <link>https://www.thedailystar.net/news/asia/news/first-phase-myanmar-polls-military-backed-party-takes-lead-4072636</link>
-      <pubDate>Sat, 03 Jan 2026 23:08:33 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Power Relations &amp; Strategy]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Demonstrates the military-backed party's electoral lead, cementing military influence in Myanmar's governance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 52.2 | Covered by 5 feeds | Reputation: 4.4&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://abcnews.go.com/International/wireStory/military-backed-party-leads-early-election-results-myanmar-128862024'&gt;Military-backed party leads in early election results in Myanmar&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/military-backed-party-leads-in-early-election-results-in-myanmar/article70467059.ece'&gt;Military-backed party leads in early election results in Myanmar&lt;/a&gt;&lt;br&gt;- &lt;a href='https://unb.com.bd/category/World/military-backed-party-leads-early-myanmar-election-results/176578'&gt;Military-backed party leads early Myanmar election results&lt;/a&gt;&lt;br&gt;- &lt;a href='https://economictimes.indiatimes.com/news/international/world-news/military-backed-party-leads-in-early-election-results-in-myanmar/articleshow/126319634.cms'&gt;Military-backed party leads in early election results in Myanmar&lt;/a&gt;&lt;br&gt;- &lt;a href='https://apnews.com/article/myanmar-dec28-election-usdp-lead-uec-early-results-336b9121f2466438c673c0bc1dc346d2'&gt;Military-backed party leads in early election results in Myanmar&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.tbsnews.net/world/military-backed-party-myanmar-takes-lead-first-phase-polls-1325091'&gt;Military-backed party in Myanmar takes lead in first phase of polls&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.channelnewsasia.com/asia/myanmar-elections-military-backed-union-solidarity-development-party-leads-polls-5787486'&gt;Military-backed party in Myanmar takes lead in first phase of polls&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/asia/se-asia/military-backed-party-in-myanmar-takes-lead-in-first-phase-of-polls'&gt;Military-backed party in Myanmar takes lead in first phase of polls&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theguardian.com/world/2026/jan/03/myanmar-election-first-phase-election-result'&gt;Military-backed party in Myanmar takes lead in contentious first election since coup&lt;/a&gt;&lt;br&gt;- &lt;a href='https://tob.news/military-backed-party-in-myanmar-takes-lead-in-first-phase-of-polls/'&gt;Military-backed party in Myanmar takes lead in first phase of polls&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/asia/military-backed-party-in-myanmar-takes-lead-in-first-phase-of-polls'&gt;Military-backed party in Myanmar takes lead in first phase of polls&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>কমল সঞ্চয়পত্রের মুনাফা
+                                                                মধ্যবিত্ত ও অবসরভোগীদের সুবিধা বহাল রাখুন. [ khaborerkagoj ]</title>
+      <link>https://khaborerkagoj.com/index.php/editorial/899895</link>
+      <pubDate>Sun, 04 Jan 2026 06:31:37 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;কমল সঞ্চয়পত্রের মুনাফা
+                                                                মধ্যবিত্ত ও অবসরভোগীদের সুবিধা বহাল রাখুন. [ khaborerkagoj ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Brazil says US crossed 'unacceptable line' over military strikes on Venezuela</title>
-      <link>https://thefinancialexpress.com.bd/world/america/brazil-says-us-crossed-unacceptable-line-over-military-strikes-on-venezuela</link>
-      <pubDate>Sat, 03 Jan 2026 16:14:40 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Power Relations &amp; Strategy]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Shows Brazil's regional response, affecting diplomatic norms and power balances regarding US strikes&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 43.8 | Covered by 4 feeds | Reputation: 7.6&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://www.aljazeera.com/news/2026/1/4/venezuela-temporarily-closes-border-with-brazil-following-us-strike?traffic_source=rss'&gt;Venezuela temporarily closes border with Brazil following US strike&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.rt.com/news/630484-brazil-condemns-us-venezuela/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=RSS'&gt;Brazil accuses US of crossing ‘unacceptable line’ in Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.hindustantimes.com/world-news/us-news/brazil-says-us-crossed-unacceptable-line-on-venezuela-as-officials-track-border-101767471325115.html'&gt;Brazil says US crossed 'unacceptable line' on Venezuela as officials track border&lt;/a&gt;&lt;br&gt;- &lt;a href='https://thefinancialexpress.com.bd/world/america/venezuelas-oil-facilities-unscathed-in-us-strike-sources-say'&gt;Venezuela’s oil facilities unscathed in US strike, sources say&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.hindustantimes.com/world-news/venezuela-us-tensions-live-updates-donald-trump-airstrikes-caracas-explosions-white-house-january-3-venezuela-news-101767426132035.html'&gt;Venezuela-US tensions LIVE updates: Trump ordered strikes on Venezuelan sites, reports say&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>কূটনৈতিক পদক্ষেপ জরুরি. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/158915/কূটনৈতিক-পদক্ষেপ-জরুরি</link>
+      <pubDate>Sun, 04 Jan 2026 05:43:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿বিশ্ব অর্থনীতির অস্থিরতার মধ্যেও বাংলাদেশ নিজেকে একটি সম্ভাবনাময় বিনিয়োগ গন্তব্য ...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The United States' history of intervening in Latin America</title>
-      <link>https://www.thedailystar.net/news/world/usa/news/the-united-states-history-intervening-latin-america-4072151</link>
-      <pubDate>Sat, 03 Jan 2026 12:37:00 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Analyzes historical patterns of U.S. geopolitical influence in Latin America, revealing systemic strategic priorities.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 42.1 | Covered by 4 feeds | Reputation: 4.1&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/us-operation-in-venezuela-marks-passing-of-old-order-revival-of-concepts-like-zones-of-influence'&gt;US operation in Venezuela marks passing of old order, revival of concepts like zones of influence&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.rt.com/news/630468-us-venezuela-international-order-fico/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=RSS'&gt;US attack on Venezuela proves post-WWII ‘world order’ crumbling – Fico&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.scmp.com/news/world/united-states-canada/article/3338634/us-interventions-latin-america-history-coups-and-conflicts?utm_source=rss_feed'&gt;US interventions in Latin America: a history of coups and conflicts&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/the-united-states-history-of-intervening-in-latin-america/article70467865.ece'&gt;The United States’ history of intervening in Latin America&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/the-us-history-of-intervening-in-latin-america'&gt;The US’ history of intervening in Latin America&lt;/a&gt;&lt;br&gt;- &lt;a href='https://sputnikglobe.com/20260103/double-barreled-us-agenda-of-venezuela-strikes-regime-change--resource-grab---analyst-1123409160.html'&gt;Double-Barreled US Agenda of Venezuela Strikes: Regime Change &amp; Resource Grab - Analyst&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলায় মার্কিন অভিযান ও মাদুরোকে 'আটকের' প্রতিবাদে বিক্ষোভ, ভাইস প্রেসিডেন্টকে দায়িত্ব গ্রহণের নির্দেশ হাইকোর্টের. [ bbc ]</title>
+      <link>https://www.bbc.co.uk/bengali/live/cg5g740q628t?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Sun, 04 Jan 2026 05:43:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;শনিবার দক্ষিণ আমেরিকার দেশ ভেনেজুয়েলায় ব্যাপক হামলা চালিয়ে দেশটির প্রেসিডেন্ট নিকোলাস মাদুরোকে যুক্তরাষ্ট্র 'আটক' করার পর দেশটির বিভিন্ন জায়গায় বিক্ষোভ হয়েছে। এদিকে, প্রেসিডেন্টের অনুপস্থিতিতে ভাইস-প্রেসিডেন্টকে দায়িত্ব গ্রহণের নির্দেশ দিয়েছে হাইকোর্ট। চোখ রাখুন বিবিসি বাংলার লাইভ পাতায়...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>‘Act of war’: Expert rejects Trump rationale for Venezuela attack</title>
-      <link>https://www.aljazeera.com/news/2026/1/3/act-of-war-expert-rejects-trump-rationale-for-venezuela-attack?traffic_source=rss</link>
-      <pubDate>Sat, 03 Jan 2026 22:54:28 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Presents expert criticism of the US war rationale, influencing future policy debates on military interventions.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 33.0 | Covered by 3 feeds | Reputation: 6.0&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://www.theatlantic.com/international/2026/01/attack-venezuela-incoherent/685488/?utm_source=feed'&gt;Making Sense of the Nonsensical Venezuela Attack&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/trump-venezuela-explosion-maduro-captured-explained/article70467615.ece'&gt;Why Trump bombed Venezuela | Explained&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>সৌদি-আমিরাত সম্পর্ক ও সোমালিল্যান্ড. [ dailyamardesh ]</title>
+      <link>https://www.dailyamardesh.com/op-ed/amdjta2dr8ptk</link>
+      <pubDate>Sun, 04 Jan 2026 05:16:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Mistral-Small, Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সৌদি-আমিরাত সম্পর্ক ও সোমালিল্যান্ড. [ dailyamardesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>UK not involved in US operation in Venezuela, says Starmer</title>
-      <link>https://www.tbsnews.net/world/uk-not-involved-us-operation-venezuela-says-starmer-1325466</link>
-      <pubDate>Sat, 03 Jan 2026 15:16:27 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Clarifies the UK government's official non-participation, affecting international coordination on the operation.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.daily-sun.com/world-print/849678'&gt;‘UK not involved in any way in US strike on Venezuela’&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 32.3 | Covered by 3 feeds | Reputation: 4.6&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://english.news.cn/20260103/0cddee0446fe44a1b1b26759c3658649/c.html'&gt;Britain "not involved in any way" in U.S. operation in Venezuela: British PM&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.theguardian.com/world/2026/jan/03/us-venezuela-attack-britain-not-involved-says-starmer'&gt;Britain not involved in US Venezuela attack, says Starmer&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/europe/uks-starmer-says-britain-was-not-involved-in-us-strikes-on-venezuela'&gt;UK's Starmer says Britain was not involved in US strikes on Venezuela&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/uk-pm-starmer-says-britain-was-not-involved-in-us-strikes-on-venezuela/article70467667.ece'&gt;U.K. PM Starmer says Britain was not involved in U.S. strikes on Venezuela&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>নির্বাচন ঘিরে বিএনপি-জামায়াতের হিসাবনিকাশ. [ banglanews24 ]</title>
+      <link>https://www.banglanews24.com/opinion/news/bd/1630303.details</link>
+      <pubDate>Sun, 04 Jan 2026 05:42:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নির্বাচন ঘিরে বিএনপি-জামায়াতের হিসাবনিকাশ. [ banglanews24 ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Saudi-backed Yemen government says it retakes eastern city from separatists</title>
-      <link>https://www.tbsnews.net/world/saudi-backed-yemen-government-says-it-retakes-eastern-city-separatists-1325476</link>
-      <pubDate>Sat, 03 Jan 2026 15:31:27 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Marks a shift in territorial control, affecting the balance of power in Yemen's civil conflict.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 32.0 | Covered by 3 feeds | Reputation: 4.0&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://english.news.cn/20260104/95dc5606c2ad40d399c65ff28b671fe4/c.html'&gt;Roundup: Yemen gov't says its forces retake oil-rich Hadramout from separatists&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.al-monitor.com/originals/2026/01/yemen-presidency-says-saudi-backed-forces-retake-key-province'&gt;Yemen presidency says Saudi-backed forces retake key province&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.hindustantimes.com/world-news/us-news/yemen-presidency-says-saudi-backed-forces-retake-key-province-101767468327141.html'&gt;Yemen presidency says Saudi-backed forces retake key province&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.al-monitor.com/originals/2026/01/saudi-backed-forces-make-advances-yemens-hadramawt'&gt;Saudi-backed forces make advances in Yemen's Hadramawt&lt;/a&gt;&lt;br&gt;- &lt;a href='https://english.news.cn/20260103/8d85a53110104c739385805ae7492f82/c.html'&gt;Urgent: Saudi-backed Yemeni forces retake Seiyun city in Hadramout&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>রূপপুর পারমাণবিক বিদ্যুৎকেন্দ্র. [ jugantor ]</title>
+      <link>https://www.jugantor.com/tp-editorial/1046881</link>
+      <pubDate>Sun, 04 Jan 2026 03:49:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;রূপপুর পারমাণবিক বিদ্যুৎকেন্দ্র. [ jugantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ukraine hosts talks with Nato, 15 allies in Kyiv</title>
-      <link>https://www.thedailystar.net/news/world/russian-invasion-ukraine/news/ukraine-hosts-talks-nato-15-allies-kyiv-4072616</link>
-      <pubDate>Sat, 03 Jan 2026 23:38:33 GMT</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Reflects formalized military and political alignment between Ukraine and NATO, reshaping regional security dynamics.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;![CDATA[Importance: 31.9 | Covered by 3 feeds | Reputation: 3.7&lt;br&gt;&lt;b&gt;Matched Titles:&lt;/b&gt;&lt;br&gt;- &lt;a href='https://www.newagebd.net/post/europe/287128/ukraines-allies-meet-as-russia-makes-biggest-gains-since-2022'&gt;Ukraine’s allies meet as Russia makes biggest gains since 2022&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.hindustantimes.com/world-news/us-news/security-advisers-discuss-peace-proposals-in-ukraine-ahead-of-leaders-summit-101767469489065.html'&gt;Security advisers discuss peace proposals in Ukraine ahead of leaders' summit&lt;/a&gt;&lt;br&gt;- &lt;a href='http://www.euronews.com/2026/01/03/ukraine-and-european-allies-discuss-us-led-20-point-peace-plan-in-kyiv'&gt;Ukraine and European allies discuss US-led 20-point peace plan in Kyiv&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.channelnewsasia.com/world/ukraines-allies-in-kyiv-talks-plan-end-war-5788171'&gt;Ukraine's allies in Kyiv for talks on plan to end war&lt;/a&gt;&lt;br&gt;- &lt;a href='https://abcnews.go.com/International/wireStory/european-security-advisors-discuss-peace-proposals-kyiv-ahead-128864384'&gt;European security advisors discuss peace proposals in Kyiv ahead of leaders' summit&lt;/a&gt;&lt;br&gt;- &lt;a href='https://apnews.com/article/peace-proposals-diplomacy-ukraine-war-8eaa7d78332ab3664c54e34b0d3df020'&gt;European security advisors discuss peace proposals in Kyiv ahead of leaders’ summit&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.thehindu.com/news/international/ukraine-hosts-talks-with-security-allies-in-kyiv/article70466779.ece'&gt;Ukraine hosts talks with security allies in Kyiv&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.france24.com/en/europe/20260103-live-kyiv-hosts-high-level-security-talks-with-ukraine-s-allies'&gt;Live: Kyiv hosts high-level security talks with Ukraine's allies&lt;/a&gt;&lt;br&gt;- &lt;a href='https://www.straitstimes.com/world/europe/ukraine-hosts-talks-with-security-allies-in-kyiv'&gt;Ukraine hosts talks with security allies in Kyiv&lt;/a&gt;]]&gt;&lt;/p&gt;</description>
+      <title>মব জাস্টিস ও ভাঙচুর: দমনে কঠোরতার বিকল্প নেই. [ ittefaq ]</title>
+      <link>https://www.ittefaq.com.bd/768965/%E0%A6%AE%E0%A6%AC-%E0%A6%9C%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B8-%E0%A6%93-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%9A%E0%A7%81%E0%A6%B0-%E0%A6%A6%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%A0%E0%A7%8B%E0%A6%B0%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A6%A8%E0%A7%87%E0%A6%87</link>
+      <pubDate>Mon, 05 Jan 2026 04:07:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মব জাস্টিস ও ভাঙচুর: দমনে কঠোরতার বিকল্প নেই. [ ittefaq ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>‘A line crossed’: Lawmakers, lawyers, anti-war advocates alarmed by Venezuela overthrow</title>
-      <link>https://www.defenseone.com/policy/2026/01/line-crossed-lawmakers-lawyers-anti-war-advocates-alarmed-venezuela-overthrow/410442/</link>
-      <pubDate>Sun, 04 Jan 2026 00:22:59 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reveals the concerns of lawmakers, lawyers, and anti-war advocates about the US overthrow in Venezuela, indicating a potential shift in institutional balance.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The lack of Congressional notification stokes fears of another "forever war."&lt;/p&gt;</description>
+      <title>খাদ্য নিরাপত্তার রাজনীতি. [ jagonews24 ]</title>
+      <link>https://www.jagonews24.com/m/opinion/article/1081478</link>
+      <pubDate>Mon, 05 Jan 2026 03:52:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;খাদ্য নিরাপত্তার রাজনীতি. [ jagonews24 ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A Strategic Break for South America</title>
-      <link>https://foreignpolicy.com/2026/01/03/venezuela-us-trump-maduro-defense-regime-change/</link>
-      <pubDate>Sat, 03 Jan 2026 21:30:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Implies a systemic realignment of South American alliances following the U.S.-led intervention in Venezuela.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;In the wake of Maduro’s capture, governments across the continent are facing uncomfortable questions about deterrence and autonomy.&lt;/p&gt;</description>
+      <title>পত্রিকা: 'দ্বিগুণ দামেও পাওয়া যাচ্ছে না এলপি গ্যাস, জিম্মি সাধারণ মানুষ'. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/cddg69nyzvqo?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Mon, 05 Jan 2026 02:37:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ঢাকা থেকে প্রকাশিত পত্রিকায় আজ প্রাধান্য পেয়েছে ভেনেজুয়েলায় মার্কিন অভিযান, বাংলাদেশে গুম কমিশনের প্রতিবেদন ও ঢাকায় গ্যাস সংকটের খবর। এছাড়া জাতীয় নির্বাচনের প্রর্থিতা বাতিলসহ বিভিন্ন খবর গুরুত্ব পেয়েছে।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How ‘Absolute Resolve’ harnessed 150 aircraft and more to launch a regime change in Venezuela</title>
-      <link>https://www.defenseone.com/threats/2026/01/inside-absolute-resolve-regime-change-assault-venezuela/410440/</link>
-      <pubDate>Sat, 03 Jan 2026 21:26:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Details the operational mechanics of a state-led regime change, exposing institutional coordination and military strategy.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The Joint Chiefs chair described the "precise" and "unprecedented" military operation at a Saturday press conference.&lt;/p&gt;</description>
+      <title>নতুন বছরে অর্থনীতি : হতাশা কাটিয়ে পুনরুজ্জীবনের প্রত্যাশা. [ rupalibangladesh ]</title>
+      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/104992</link>
+      <pubDate>Mon, 05 Jan 2026 02:27:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নতুন বছরে অর্থনীতি : হতাশা কাটিয়ে পুনরুজ্জীবনের প্রত্যাশা. [ rupalibangladesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Donald Trump wants to run Venezuela, and dominate the western hemisphere</title>
-      <link>https://archive.is/o/nuunc/https://www.economist.com/the-americas/2026/01/03/donald-trump-wants-to-run-venezuela-and-dominate-the-western-hemisphere</link>
-      <pubDate>Sat, 03 Jan 2026 20:26:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline explains Trump's intentions to dominate the western hemisphere, revealing a strategic shift in US foreign policy.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.bbc.com/news/articles/c93n4nx5yqro?at_medium=RSS&amp;at_campaign=rss'&gt;Why has Trump attacked Venezuela and taken Maduro?&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://foreignpolicy.com/2026/01/03/the-downside-of-trumps-venezuela-op/'&gt;Trump Sets a Devastating Precedent in Venezuela&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Snatching Nicolás Maduro and attempting to take control of Venezuela and its oil is an extraordinary display of the new “Donroe doctrine”&lt;/p&gt;</description>
+      <title>বিদ্যুৎ ও গ্যাস খাতে ব্যবহারিক চাহিদা নির্ধারণ. [ shomoyeralo ]</title>
+      <link>https://www.shomoyeralo.com/news/342479</link>
+      <pubDate>Mon, 05 Jan 2026 02:12:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিদ্যুৎ ও গ্যাস খাতে ব্যবহারিক চাহিদা নির্ধারণ. [ shomoyeralo ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>US spy agencies contributed to operation that captured Maduro</title>
-      <link>https://www.defenseone.com/threats/2026/01/us-spy-agencies-contributed-operation-captured-maduro/410437/</link>
-      <pubDate>Sat, 03 Jan 2026 19:29:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Reveals US spy agencies’ involvement in a foreign regime‑change operation, illustrating strategic use of covert power.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://archive.is/o/nuunc/https://www.economist.com/the-americas/2026/01/03/how-the-pentagon-snatched-nicolas-maduro'&gt;How the Pentagon snatched Nicolás Maduro&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;The CIA helped locate the Venezuelan leader while others monitored electronic communications.&lt;/p&gt;</description>
+      <title>বেশি সার বেশি ক্ষতি. [ deshrupantor ]</title>
+      <link>https://www.deshrupantor.com/652581/%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BF</link>
+      <pubDate>Sun, 04 Jan 2026 22:34:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বেশি সার বেশি ক্ষতি. [ deshrupantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The US will ‘run’ Venezuela for now, Trump says after armed assault on capital</title>
-      <link>https://www.defenseone.com/threats/2026/01/us-will-run-venezuela-now-trump-says-after-armed-assault-capital/410436/</link>
-      <pubDate>Sat, 03 Jan 2026 19:20:20 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;States US intent to administer Venezuela, indicating an authority transfer and governance planning.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.thedailystar.net/news/world/usa/news/us-will-run-venezuela-4072546'&gt;US will ‘run’ Venezuela&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Regime-change operation bombed multiple sites, seized president early on Saturday.&lt;/p&gt;</description>
+      <title>১২০ বছরে ৩৬ দেশের সরকার উৎখাতে যুক্তরাষ্ট্র, পরিণতি ভয়াবহ. [ ajkerpatrika ]</title>
+      <link>https://www.ajkerpatrika.com/analysis/ajpdglng1vn6t</link>
+      <pubDate>Sun, 04 Jan 2026 21:29:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;১২০ বছরে ৩৬ দেশের সরকার উৎখাতে যুক্তরাষ্ট্র, পরিণতি ভয়াবহ. [ ajkerpatrika ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>রাজনৈতিক দলগুলোর নির্বাচনী অঙ্গীকারে স্বাস্থ্য অর্থায়ন কাঠামো রূপান্তরের রূপরেখা চাই. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/lKYtydYLTShOniil</link>
-      <pubDate>Sat, 03 Jan 2026 21:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article calls for a transformation of the healthcare financing structure, which is a long-term trend that can impact the country's healthcare system and economy.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://dailynayadiganta.com/opinions/editorial/wBayl9wL0YUK'&gt;খালিয়াজুরীতে নিষ্ক্রিয় ফায়ার স্টেশন, দায়িত্বহীন কাজের অবসান হোক. [ dailynayadiganta ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.ajkerpatrika.com/analysis/ajpncjmsw2q9l'&gt;ভেনেজুয়েলায় আগ্রাসন: মনরো ডকট্রিনের নয়া সংস্করণ দেখাচ্ছেন ট্রাম্প. [ ajkerpatrika ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://dailyinqilab.com/editorial/article/848702'&gt;ভারতের উগ্রবাদী আচরণের পরিবর্তন না হলে সম্পর্ক স্বাভাবিক হবে না. [ dailyinqilab ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.jagonews24.com/m/opinion/article/1081198'&gt;শোকাতুর রাজনীতি জনআকাঙ্ক্ষা এবং অংশগ্রহণমূলক নির্বাচনের প্রতীক্ষা. [ jagonews24 ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.rupalibangladesh.com/ajkerpatrika/opinion/104661'&gt;সম্পাদকীয়এলপিজির সিন্ডিকেটের বিরুদ্ধে কঠোর পদক্ষেপ নিতে হবে. [ rupalibangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.bbc.com/bengali/articles/crrn9z8e9ljo?at_medium=RSS&amp;at_campaign=rss'&gt;জামায়াত-স্বতন্ত্রসহ অনেকের প্রার্থিতা বাতিল, ইসির বিরুদ্ধে অভিযোগ কেন?. [ bbc ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.alokitobangladesh.com/print-edition/editorial/313498/%E0%A6%B6%E0%A6%B9%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A7%8B%E0%A6%9F-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AE-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%9F-%E0%A6%9C%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B2%E0%A7%9C%E0%A6%BE%E0%A6%87'&gt;শহরের ছোট ব্যবসা বনাম কর্পোরেট জায়ান্ট টিকে থাকার লড়াই. [ alokitobangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://sangbad.net.bd/opinion/mail/2026/171410'&gt;প্রাথমিক শিক্ষা নিয়োগ পরীক্ষার প্রশ্ন ফাঁস কঠোর পদক্ষেপ প্রয়োজন. [ sangbad ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.rupalibangladesh.com/ajkerpatrika/opinion/104662'&gt;২০২৫ সালের অর্থনীতি : চাপের মধ্যে স্থিতিশীলতার চেষ্টা. [ rupalibangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.bbc.com/bengali/articles/cvgj7dk8veko?at_medium=RSS&amp;at_campaign=rss'&gt;ট্রাম্প কেন ভেনেজুয়েলায় হামলা চালালেন এবং মাদুরোকে 'আটক' করলেন?. [ bbc ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://bonikbarta.com/editorial/ZQOXZDwkGt6mMcLE'&gt;ভোগান্তি নিরসনে নিয়ন্ত্রক সংস্থাকে আরো দায়িত্বশীল হতে হবে. [ bonikbarta ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.dailysangram.com/opinion/column/hV8wbnIeNWnd'&gt;বেগম জিয়াকে আর বিএনপির নেতা হিসাবে চিহ্নিত করা যাবে না. [ dailysangram ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.kalerkantho.com/online/opinion/2026/01/03/1628665'&gt;বর্তমান সময়ের কাঠামোগত বাস্তবতায় বাংলাদেশের নগর ভবিষ্যত. [ kalerkantho ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://mzamin.com/news.php?news=196935'&gt;বাংলাদেশের নতুন বাস্তবতা: দিল্লির সামনে কূটনৈতিক টেস্ট ম্যাচ. [ mzamin ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/254484'&gt;বিশেষ সাক্ষাৎকার / ১০ লাখ আইটি প্রফেশনাল তৈরির মহাপরিকল্পনা. [ kalbela ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://samakal.com/opinion/article/332305/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8D%E0%A6%AF-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%A8%E0%A7%9F-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95'&gt;আন্তর্জাতিক /ইরানের বিক্ষোভের লক্ষ্য রাজনৈতিক নয় অর্থনৈতিক. [ samakal ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.rupalibangladesh.com/opinion/104579'&gt;মাদক ও রোহিঙ্গা সংকট : জাতীয় নিরাপত্তা হুমকি. [ rupalibangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://sharebiz.net/%e0%a6%b8%e0%a7%8b%e0%a6%ae%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a1%e0%a6%95%e0%a7%87-%e0%a6%87%e0%a6%b8%e0%a6%b0%e0%a6%be%e0%a6%af%e0%a6%bc%e0%a7%87'&gt;সোমালিল্যান্ডকে ইসরায়েলের স্বীকৃতি  ও কৌশলগত কূটনীতি. [ sharebiz ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.alokitobangladesh.com/print-edition/editorial/313497/%E0%A6%89%E0%A6%AA%E0%A6%A8%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE-%E0%A6%A4%E0%A7%81%E0%A6%B2%E0%A7%87-%E0%A6%A6%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%9F'&gt;উপনিবেশবাদ ভেঙে মাথা তুলে দাঁড়ানোর প্রত্যয়. [ alokitobangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.protidinersangbad.com/todays-newspaper/uposompadokio/548256'&gt;বাজার নিয়ন্ত্রণ ও এলপিজি সংকট দূর করা হোক. [ protidinersangbad ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.dailysangram.com/opinion/editorial/0nKHbvO6iDnv'&gt;এলপিজি’র অস্বাভাবিক দাম কি রাজনীতির বিষয় নয়. [ dailysangram ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://sangbad.net.bd/opinion/editorial/2026/171407'&gt;নদী দখল করে মাছ শিকার : দৃষ্টান্তমূলক ব্যবস্থা নিন. [ sangbad ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://sharebiz.net/%e0%a6%ac%e0%a6%bf%e0%a6%9f%e0%a6%bf%e0%a6%86%e0%a6%b0%e0%a6%b8%e0%a6%bf-%e0%a6%ad%e0%a6%ac%e0%a6%a8%e0%a7%87-%e0%a6%b9%e0%a6%be%e0%a6%ae%e0%a6%b2%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%b0%e0%a7%80%e0%a6%a6'&gt;বিটিআরসি ভবনে হামলাকারীদের আইনের আওতায় আনতে হবে. [ sharebiz ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://bonikbarta.com/editorial/CuX0qkcP71F7Qhpt'&gt;চিকিৎসা ও জীবপ্রযুক্তির এক সোনালি অধ্যায় ২০২৫. [ bonikbarta ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://dailynayadiganta.com/opinions/editorial/KNPUkbQZwXfJ'&gt;এলজিপি নিয়ে ফটকাবাজি, কঠোর ব্যবস্থা নিন. [ dailynayadiganta ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.rupalibangladesh.com/ajkerpatrika/opinion/104663'&gt;কৃষিতে ঋণের চক্র ও ভর্তুকির বিভ্রান্তি. [ rupalibangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.khaborerkagoj.com/opinion/899934'&gt;অর্থনৈতিক সংকট: সরকারের ব্যয় সংকোচন নীতি. [ khaborerkagoj ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.bd-pratidin.com/open-air-theater/2026/01/04/1200054'&gt;নির্বাচন ঘিরে বিএনপি-জামায়াতের হিসাবনিকাশ. [ bd-pratidin ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://samakal.com/opinion/article/332294/%E0%A6%AD%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%9C%E0%A7%81%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%93-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC-%E0%A6%A8%E0%A7%80%E0%A6%B0%E0%A6%AC-%E0%A6%95%E0%A7%87%E0%A6%A8-'&gt;ভেনেজুয়েলায় মার্কিন আগ্রাসনেও বিশ্ব নীরব কেন?. [ samakal ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.jagonews24.com/economy/news/1081436'&gt;নতুন বছরে দেশের অর্থনীতি: সংকটের মধ্যেও পুনরুদ্ধারের আশা&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.deshrupantor.com/652289/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B2%E0%A6%A4%E0%A6%BE'&gt;ইরানের অর্থনৈতিক ব্যবস্থাপনার দুর্বলতা. [ deshrupantor ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://dhakamail.com/opinion/277676'&gt;সোমালিল্যান্ড: ইতিহাস, বাস্তবতা ও ভবিষ্যৎ. [ dhakamail ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.jagonews24.com/economy/news/1081434'&gt;বাংলাদেশ ব্যাংকের ঝুঁকিভিত্তিক সুপারভিশন কার্যক্রম শুরু&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.protidinersangbad.com/todays-newspaper/uposompadokio/548254'&gt;পরিবর্তন হোক চর্চিত ছাত্ররাজনীতি. [ protidinersangbad ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://dailynayadiganta.com/opinions/sub-editorial/LnZKiuFMBKXM'&gt;দালাল আইনের বিচার ও ইতিহাসের পাঠ. [ dailynayadiganta ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.alokitobangladesh.com/print-edition/editorial/313499/%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BF%E0%A7%9C%E0%A7%87-%E0%A6%B8%E0%A6%A4%E0%A7%8D%E0%A6%AF-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87'&gt;তথ্যের ভিড়ে সত্য হারিয়ে যাচ্ছে. [ alokitobangladesh ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.deshrupantor.com/652290/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A6-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%AA%E0%A7%8D%E0%A6%A8-%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%A4%E0%A6%BE'&gt;নিরাপদ বাংলাদেশের স্বপ্ন ও বাস্তবতা. [ deshrupantor ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.prothomalo.com/opinion/column/lbrxvfg8ia'&gt;ইরানের বিক্ষোভ কি সরকার পতনের জন্য?. [ prothomalo ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.banglatribune.com/business/power-and-fuel/928780/%E0%A6%8F%E0%A6%B2%E0%A6%AA%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%95'&gt;এলপিজির বাড়তি দাম, রবিবার ব্যবসায়ীদের সঙ্গে বৈঠক&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.dailysangram.com/opinion/column/WfQD0HyiDb15'&gt;সীমান্ত হত্যা বন্ধে বিকল্প ভাবনা. [ dailysangram ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.kalerkantho.com/print-edition/sub-editorial/2026/01/04/1628872'&gt;এনসিপি কেন জামায়াতের জোটে গেল. [ kalerkantho ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.ajkerpatrika.com/analysis/ajphr6q4sluqe'&gt;ফরেন পলিসির নিবন্ধ&lt;!-- --&gt; /. [ ajkerpatrika ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.jugantor.com/economics/1048263'&gt;ডিসেম্বরে ১ লাখ ৩১ হাজার নতুন ভ্যাট নিবন্ধন&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/254480'&gt;সম্পাদকীয় / অবৈধ অস্ত্রের ছায়া. [ kalbela ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.prothomalo.com/business/economics/leyjkqfii7'&gt;৩০ হাজার কোটি টাকা কমছে সংশোধিত এডিপিতে&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.shomoyeralo.com/news/342312'&gt;জ্ঞান হোক সবার নাগালে. [ shomoyeralo ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.jugantor.com/tp-editorial/1048387'&gt;অর্থ পাচার রোধে উদ্যোগ. [ jugantor ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://www.kalbela.com/business-news/254527'&gt;এলপি গ্যাসের নতুন দাম জানা যাবে আজ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;বাস্তবতা হলো, বর্তমান প্রেক্ষাপটে সামাজিক স্বাস্থ্য বীমা বাংলাদেশে পূর্ণাঙ্গভাবে কার্যকর হওয়ার মতো অনুকূল পরিবেশ এখনো তৈরি হয়নি। যেসব দেশে সামাজিক স্বাস্থ্য বীমা সফল হয়েছে, সেখানে বড় আকারের আনুষ্ঠানিক শ্রমবাজার বিদ্যমান।&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলায় ট্রাম্পীয় মোড়কে ‘রেজিম চেঞ্জ’. [ kalbela ]</title>
+      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/254753</link>
+      <pubDate>Sun, 04 Jan 2026 21:15:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলায় ট্রাম্পীয় মোড়কে ‘রেজিম চেঞ্জ’. [ kalbela ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>‘The interim has failed to curb inflation and unemployment’: A rebuttal. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/views/news/the-interim-has-failed-curb-inflation-and-unemployment-rebuttal-4072336</link>
-      <pubDate>Sun, 04 Jan 2026 04:30:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Critiques interim governance's failure to address inflation and unemployment, influencing macroeconomic stability.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;I write this in response to an article recently published by The Daily Star, titled The interim has failed to curb inflation and unemployment.&lt;/p&gt;</description>
+      <title>উচ্চ মূল্যস্ফীতি ও ক্রমবর্ধমান বেকারত্ব জনজীবনে বড় অভিঘাত. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/Bkk6iND0QL49jdBK</link>
+      <pubDate>Sun, 04 Jan 2026 21:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;উচ্চ মূল্যস্ফীতির কারণে তিন বছর ধরে অনেক কষ্টে আছে বাংলাদেশের সাধারণ মানুষ। সাম্প্রতিককালে সর্বোচ্চ মূল্যস্ফীতি ছিল ২০২৪ সালের জুলাইয়ে। বাংলাদেশ পরিসংখ্যান বিভাগের তথ্য অনুসারে ওই মাসে সাধারণ মূল্যস্ফীতির হার ছিল ১১ দশমিক ৬৬ শতাংশ। আগের মাস জুনে ছিল ৯ দশমিক ৭২ শতাংশ।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Education reform: Too little, too late under the interim regime?. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/views/news/education-reform-too-little-too-late-under-the-interim-regime-4072331</link>
-      <pubDate>Sun, 04 Jan 2026 03:19:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article critiques the education reform under the interim regime, suggesting that it may be insufficient, and discusses the long-term implications for the education system.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The tenure of the interim government (IG) since August 2024 has not been particularly comforting for the country's education community.&lt;/p&gt;</description>
+      <title>কেবলই রাজনৈতিক প্রতিশ্রুতি, নাকি আদালতে বলবৎযোগ্য আইনি চুক্তি?. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/KqNnIhCe2CeOFphf</link>
+      <pubDate>Sun, 04 Jan 2026 20:40:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নির্বাচন কমিশন কর্তৃক ঘোষিত তফসিল অনুযায়ী ১২ ফেব্রুয়ারি ত্রয়োদশ জাতীয় সংসদ নির্বাচন ও প্রস্তাবিত সংস্কারবিষয়ক গণভোট অনুষ্ঠিত হবে। নির্বাচনের আগে প্রতিদ্বন্দ্বী রাজনৈতিক দলগুলোর ভোটারদের উদ্দেশে নির্বাচনী ইশতাহার ঘোষণা এখন বিশ্বজুড়ে গণতান্ত্রিক রীতিতে পরিণত হয়েছে।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Between digital transformation and sustainable development. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/287010/between-digital-transformation-and-sustainable-development</link>
-      <pubDate>Sat, 03 Jan 2026 20:26:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This article explores the relationship between digital transformation and sustainable development, discussing long-term trends and strategic forces in these areas.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Between digital transformation and sustainable development. [ newagebd ]&lt;/p&gt;</description>
+      <title>নতুন ব্যাংক অনুমোদন নয়, ব্যাংকের সংখ্যা কমিয়ে আনার উদ্যোগ নিতে হবে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/YnB9shSUrVHhJl2G</link>
+      <pubDate>Sun, 04 Jan 2026 20:40:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বর্তমানে দেশের অর্থনীতির বড় ক্ষত ব্যাংক খাত। একদিকে দেশের অর্থনীতির আকারের তুলনায় ব্যাংকের সংখ্যা অনেক বেশি। অন্যদিকে অধিকাংশ ব্যাংক বহুমুখী সমস্যায় জর্জরিত, যার মধ্যে প্রধানতম হলো ক্রমবর্ধমান খেলাপি ঋণ, মূলধন ঘাটতি ও সুশাসনের সংকট।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Optimal use of remittance. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/287100/optimal-use-of-remittance</link>
-      <pubDate>Sat, 03 Jan 2026 20:26:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article discusses the optimal use of remittances, which is crucial for understanding capital movement and economic flows in the country.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Optimal use of remittance. [ newagebd ]&lt;/p&gt;</description>
+      <title>জমুক ভোটের লড়াই : অটুট থাকুক জাতীয় ঐক্য
+মোস্তফা কামাল. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/open-air-theater/2026/01/05/1200492</link>
+      <pubDate>Sun, 04 Jan 2026 20:40:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/public/news_images/2026/01/05/1767554129-138aefd467464317d229f8ef73bcae2d.jpg" /&gt;&lt;br /&gt;জাতীয়, স্থানীয় বা পেশাজীবী যেকোনো নির্বাচন যে একটা উৎসব-আনন্দের বিষয় হতে পারে, সেটি ভুলিয়ে দিয়ে গেছে বিগত সরকার। জাতীয়, এমনকি স্থানীয় সরকার নির্বাচনেও...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trends of enterprise growth. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/opinion/287099/trends-of-enterprise-growth</link>
-      <pubDate>Sat, 03 Jan 2026 20:11:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Investigates enterprise growth trends, reflecting structural shifts in industrial and entrepreneurial ecosystems.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Trends of enterprise growth. [ newagebd ]&lt;/p&gt;</description>
+      <title>দেশ বিনির্মাণে শিক্ষাব্যবস্থার আধুনিকায়ন জরুরি. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/548398</link>
+      <pubDate>Sun, 04 Jan 2026 20:35:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দেশ বিনির্মাণে শিক্ষাব্যবস্থার আধুনিকায়ন জরুরি. [ protidinersangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Political empowerment of women worryingly poor. [ newagebd ]</title>
-      <link>https://www.newagebd.net/post/editorial/287098/political-empowerment-of-women-worryingly-poor</link>
-      <pubDate>Sat, 03 Jan 2026 19:56:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This article highlights the poor political empowerment of women, which is a significant aspect of power relations and strategic alignment within the society.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Political empowerment of women worryingly poor. [ newagebd ]&lt;/p&gt;</description>
+      <title>আমদানিনির্ভরতা কমাতে সরিষা উৎপাদনে গুরুত্ব. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/548399</link>
+      <pubDate>Sun, 04 Jan 2026 20:35:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আমদানিনির্ভরতা কমাতে সরিষা উৎপাদনে গুরুত্ব. [ protidinersangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Why Bangladeshi Corporates Struggle With Loan Repayments: Insights from CAPEX, OPEX and Minsky’s Theory. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/346508/why-bangladeshi-corporates-struggle-with-loan-repayments-insights-from-capex-opex-and-minskys-theory</link>
-      <pubDate>Sat, 03 Jan 2026 19:44:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article provides insights into why Bangladeshi corporations struggle with loan repayments, using theories like Minsky's, which sheds light on systemic risk and economic flows.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Why Bangladeshi Corporates Struggle With Loan Repayments: Insights from CAPEX, OPEX and Minsky’s Theory. [ dailyasianage ]&lt;/p&gt;</description>
+      <title>অবৈধ গ্যাস সংযোগ বন্ধে চাই কার্যকর উদ্যোগ. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/548401</link>
+      <pubDate>Sun, 04 Jan 2026 20:35:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অবৈধ গ্যাস সংযোগ বন্ধে চাই কার্যকর উদ্যোগ. [ protidinersangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ease of doing business is starkly missing in our investment ambience. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/346507/ease-of-doing-business-is-starkly-missing-in-our-investment-ambience</link>
-      <pubDate>Sat, 03 Jan 2026 19:44:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This article discusses the ease of doing business and the investment environment, which are crucial for understanding economic flows and capital movement.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Ease of doing business is starkly missing in our investment ambience. [ dailyasianage ]&lt;/p&gt;</description>
+      <title>জাতীয় সমাজসেবা দিবস : আমাদের অসহায় জনগোষ্ঠীর প্রতি দায়বদ্ধতার প্রতীক. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/313651/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A7%9F-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8--%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A6%A8%E0%A6%97%E0%A7%8B%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A7%80%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%80%E0%A6%95</link>
+      <pubDate>Sun, 04 Jan 2026 20:22:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জাতীয় সমাজসেবা দিবস : আমাদের অসহায় জনগোষ্ঠীর প্রতি দায়বদ্ধতার প্রতীক. [ alokitobangladesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>No place for lawlessness in telecom sector. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/editorial/no-place-for-lawlessness-in-telecom-sector</link>
-      <pubDate>Sat, 03 Jan 2026 19:43:53 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article emphasizes the need for lawfulness in the telecom sector, highlighting the importance of governance and regulatory control.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://today.thefinancialexpress.com.bd/editorial/no-place-for-lawlessness-in-telecom-sector-1767443223'&gt;No place for lawlessness in telecom sector. [ today ]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;The launch of National Equipment Identity Register (NEIR) at the start of the new year constitutes a long-overdue step to curtail the chaos and illicit trade that have defined much of Bangladesh's mobile handset sector. For years the sector has functioned with a large grey zone where illegal import&lt;/p&gt;</description>
+      <title>গ্যাসের দাম নিয়ে সিন্ডিকেটের কারসাজি. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/313652/%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF</link>
+      <pubDate>Sun, 04 Jan 2026 20:21:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;গ্যাসের দাম নিয়ে সিন্ডিকেটের কারসাজি. [ alokitobangladesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Navigating Great Power Rivalry: What Does the New US National Security Strategy Mean for Bangladesh?. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/346505/navigating-great-power-rivalry-what-does-the-new-us-national-security-strategy-mean-for-bangladesh</link>
-      <pubDate>Sat, 03 Jan 2026 19:29:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This article analyzes the implications of the new US National Security Strategy for Bangladesh, discussing strategic alignment and long-term rivalry or cooperation.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Navigating Great Power Rivalry: What Does the New US National Security Strategy Mean for Bangladesh?. [ dailyasianage ]&lt;/p&gt;</description>
+      <title>ভেনিজুয়েলায় মার্কিন আগ্রাসন : সভ্যতার গালে চপেটাঘাত. [ jugantor ]</title>
+      <link>https://www.jugantor.com/editorial/1048853</link>
+      <pubDate>Sun, 04 Jan 2026 20:21:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনিজুয়েলায় মার্কিন আগ্রাসন : সভ্যতার গালে চপেটাঘাত. [ jugantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>From Concealment to Correction: 2025 Reshaped the Banking Sector. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/346504/from-concealment-to-correction-2025-reshaped-the-banking-sector</link>
-      <pubDate>Sat, 03 Jan 2026 19:14:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article discusses changes in the banking sector, specifically how it was reshaped, indicating a significant shift in economic and resource flows.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.daily-sun.com/opinion/849484'&gt;Banking Sector after the Illusion of Stability. [ daily-sun ]&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='https://daily-sun.com/editorial/849484'&gt;Banking Sector after the Illusion of Stability&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;From Concealment to Correction: 2025 Reshaped the Banking Sector. [ dailyasianage ]&lt;/p&gt;</description>
+      <title>সার্বভৌমত্ব যখন বুলেটে পিষ্ট. [ jugantor ]</title>
+      <link>https://www.jugantor.com/editorial/1048849</link>
+      <pubDate>Sun, 04 Jan 2026 20:21:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সার্বভৌমত্ব যখন বুলেটে পিষ্ট. [ jugantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Installing hypersonic  missiles in Belarus shows Moscow’s ability to strike across Europe. [ dailyasianage ]</title>
-      <link>https://dailyasianage.com/news/346458/installing-hypersonic--missiles-in-belarus-shows-moscows-ability-to-strike-across-europe</link>
-      <pubDate>Sat, 03 Jan 2026 18:59:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This article highlights Moscow's ability to strike across Europe by installing hypersonic missiles in Belarus, demonstrating strategic military capability and power relations.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Installing hypersonic  missiles in Belarus shows Moscow’s ability to strike across Europe. [ dailyasianage ]&lt;/p&gt;</description>
+      <title>সাইবার নিরাপত্তা নিশ্চিত করার সময় এখনই. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/313654/%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%87</link>
+      <pubDate>Sun, 04 Jan 2026 19:51:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সাইবার নিরাপত্তা নিশ্চিত করার সময় এখনই. [ alokitobangladesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About willful defaulters in amortising bank loan dues. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/views/about-willful-defaulters-in-amortising-bank-loan-dues</link>
-      <pubDate>Sat, 03 Jan 2026 18:36:33 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Reiterates systemic risks in banking due to willful defaulters, emphasizing institutional financial governance.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://today.thefinancialexpress.com.bd/views-opinion/about-willful-defaulters-in-amortising-bank-loan-dues-1767443657'&gt;About willful defaulters in amortising bank loan dues. [ today ]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="nuxt-link-active" href="https://politepaul.com/"&gt;Haradhan Sarker   &lt;/a&gt;&lt;/p&gt;</description>
+      <title>বিষাক্ত বাতাসে বিপন্ন জনস্বাস্থ্য : বাঁচতে হলে লড়তে হবে এখনই. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/313655/%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A8-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF--%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%9A%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%B2%E0%A7%9C%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%87</link>
+      <pubDate>Sun, 04 Jan 2026 19:36:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিষাক্ত বাতাসে বিপন্ন জনস্বাস্থ্য : বাঁচতে হলে লড়তে হবে এখনই. [ alokitobangladesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Support import substitution industries. [ today ]</title>
-      <link>https://today.thefinancialexpress.com.bd/editorial/support-import-substitution-industries-1767443498</link>
-      <pubDate>Sat, 03 Jan 2026 18:36:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Advocates for import substitution industries, signaling economic policy direction and resource allocation.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Every year, in addition to importing rice and lentils, Bangladesh...&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলায় নজিরবিহীন আগ্রাসন. [ dailysangram ]</title>
+      <link>https://www.dailysangram.com/opinion/editorial/B5XoFCBxd6Va</link>
+      <pubDate>Sun, 04 Jan 2026 19:12:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলায় নজিরবিহীন আগ্রাসন. [ dailysangram ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Challenge of curbing inflation. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/columns/challenge-of-curbing-inflation</link>
-      <pubDate>Sat, 03 Jan 2026 18:36:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Focuses on inflation control, a core macroeconomic policy challenge with systemic economic implications.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://today.thefinancialexpress.com.bd/editorial/challenge-of-curbing-inflation-1767443422'&gt;Challenge of curbing inflation. [ today ]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Challenge of curbing inflation. [ thefinancialexpress ]&lt;/p&gt;</description>
+      <title>নির্বাচন গণভোট গণতন্ত্র. [ deshrupantor ]</title>
+      <link>https://www.deshrupantor.com/652584/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%97%E0%A6%A3%E0%A6%AD%E0%A7%8B%E0%A6%9F-%E0%A6%97%E0%A6%A3%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0</link>
+      <pubDate>Sun, 04 Jan 2026 19:12:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নির্বাচন গণভোট গণতন্ত্র. [ deshrupantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Green revolution in RMG: Leave no factories behind. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/opinions/green-revolution-in-rmg-leave-no-factories-behind</link>
-      <pubDate>Sat, 03 Jan 2026 18:36:29 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Promotes industrial transformation in RMG, reflecting strategic economic development priorities.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://today.thefinancialexpress.com.bd/editorial/green-revolution-in-rmg-leave-no-factories-behind-1767443458'&gt;Green revolution in RMG: Leave no factories behind. [ today ]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Green revolution in RMG: Leave no factories behind. [ thefinancialexpress ]&lt;/p&gt;</description>
+      <title>জামায়াত আমিরের সাথে ভারতীয় কূটনীতিকের সাক্ষাৎ : কিছু প্রশ্ন. [ dailyinqilab ]</title>
+      <link>https://dailyinqilab.com/editorial/article/849519</link>
+      <pubDate>Sun, 04 Jan 2026 19:12:02 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জামায়াত আমিরের সাথে ভারতীয় কূটনীতিকের সাক্ষাৎ : কিছু প্রশ্ন. [ dailyinqilab ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Can a single health vision remedy AMR crisis?. [ thefinancialexpress ]</title>
-      <link>https://thefinancialexpress.com.bd/views/reviews/can-a-single-health-vision-remedy-amr-crisis</link>
-      <pubDate>Sat, 03 Jan 2026 18:36:28 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Raises a policy debate on addressing AMR through unified health strategies, shaping long-term public health frameworks.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://today.thefinancialexpress.com.bd/views-opinion/can-a-single-health-vision-remedy-amr-crisis-1767443720'&gt;Can a single health vision remedy AMR crisis?. [ today ]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Can a single health vision remedy AMR crisis?. [ thefinancialexpress ]&lt;/p&gt;</description>
+      <title>ই-কমার্স ও বাংলাদেশের কাঠামোগত চ্যালেঞ্জ. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%87-%e0%a6%95%e0%a6%ae%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%b8-%e0%a6%93-%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a7%87%e0%a6%b0-%e0%a6%95%e0%a6%be%e0%a6%a0</link>
+      <pubDate>Sun, 04 Jan 2026 18:56:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ই-কমার্স ও বাংলাদেশের কাঠামোগত চ্যালেঞ্জ. [ sharebiz ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Defuse confusion over NEIR. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/849669</link>
-      <pubDate>Sat, 03 Jan 2026 18:32:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Addresses policy clarity in NEIR, indicating institutional coordination challenges.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The confusion created following the launch of the National Equipment Identification Register (NEIR) must be addressed and clarified in a&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলা, মাদুরো ও ক্ষমতার কঠিন পাঠ. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/01/05/1200387</link>
+      <pubDate>Sun, 04 Jan 2026 18:43:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;১. বিদায়, বেগম খালেদা জিয়া
+
+বেগম খালেদা জিয়ার প্রয়াণ কেবল একজন সাবেক প্রধানমন্ত্রীর বিদায় নয়; এটি বাংলাদেশের রাজনৈতিক ইতিহাসের একটি দীর্ঘ, জটিল ও...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Prospect of Forecast-based Agricultural Policy. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/editorial/849671</link>
-      <pubDate>Sat, 03 Jan 2026 18:30:22 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Explores forecast-based agricultural policy, signaling shifts in long-term economic planning.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Agriculture plays a vital role in the economy of Bangladesh and in its effort to ensure food security. However, obstacles&lt;/p&gt;</description>
+      <title>জমুক ভোটের লড়াই : অটুট থাকুক জাতীয় ঐক্য. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/01/05/1200389</link>
+      <pubDate>Sun, 04 Jan 2026 18:43:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জমুক ভোটের লড়াই : অটুট থাকুক জাতীয় ঐক্য. [ bd-pratidin ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Ganges Water Treaty: Enduring Relevance of a Quiet Understanding. [ daily-sun ]</title>
-      <link>https://www.daily-sun.com/opinion/849652/the-ganges-water-treaty-enduring-relevance-of-a-quiet-understanding</link>
-      <pubDate>Sat, 03 Jan 2026 17:31:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The article discusses the enduring relevance of the Ganges Water Treaty, which is a significant aspect of long-term strategic cooperation and power relations between nations.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The Ganges Water Treaty: Enduring Relevance of a Quiet Understanding. [ daily-sun ]&lt;/p&gt;</description>
+      <title>বাম-ডান জনপ্রিয়তাবাদ. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/01/05/1200391</link>
+      <pubDate>Sun, 04 Jan 2026 18:43:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাম-ডান জনপ্রিয়তাবাদ. [ bd-pratidin ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ensure digital accessibility for all. [ observerbd ]</title>
-      <link>https://www.observerbd.com/news/560813</link>
-      <pubDate>Sat, 03 Jan 2026 17:31:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline clarifies the need for digital accessibility as a systemic requirement for social equity.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Ensure digital accessibility for all" class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="Ensure digital accessibility for all" /&gt;The main spirit of transforming Bangladesh from digital to inclusive country is to ensure the dignity and just participation of ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
+      <title>ক্ষমতা পরিবর্তনের মার্কিন নীতি. [ deshrupantor ]</title>
+      <link>https://www.deshrupantor.com/652583/%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</link>
+      <pubDate>Sun, 04 Jan 2026 18:42:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ক্ষমতা পরিবর্তনের মার্কিন নীতি. [ deshrupantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Is the commission doing the necessary for a free and fair election?. [ en ]</title>
-      <link>https://en.prothomalo.com/opinion/op-ed/xkwa9nb587</link>
-      <pubDate>Sat, 03 Jan 2026 17:31:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline questions the institutional capability of the commission to ensure a free and fair election, indicating a potential issue with governance.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Is the commission doing the necessary for a free and fair election?. [ en ]&lt;/p&gt;</description>
+      <title>এলপিজির কৃত্রিম সংকট সিন্ডিকেটের দাপট. [ deshrupantor ]</title>
+      <link>https://www.deshrupantor.com/652582/%E0%A6%8F%E0%A6%B2%E0%A6%AA%E0%A6%BF%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AA%E0%A6%9F</link>
+      <pubDate>Sun, 04 Jan 2026 18:27:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;এলপিজির কৃত্রিম সংকট সিন্ডিকেটের দাপট. [ deshrupantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>End of a historic era and imperative for women's political leadership in Bangladesh. [ observerbd ]</title>
-      <link>https://www.observerbd.com/news/560814</link>
-      <pubDate>Sat, 03 Jan 2026 17:16:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline implies a shift in political leadership and its implications for women's political participation in Bangladesh.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="End of a historic era and imperative for women's political leadership in Bangladesh " class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="End of a historic era and imperative for women's political leadership in Bangladesh " /&gt;On the morning of 30 December 2025, at approximately 6:00 am, the cardiac unit at Evercare Hospital in Dhaka declared ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলায় মার্কিন আগ্রাসন ও পররাষ্ট্রনীতির ‘পুতিনাইজেশন’. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/print-edition/sub-editorial/2026/01/05/1629347</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলায় মার্কিন আগ্রাসন ও পররাষ্ট্রনীতির ‘পুতিনাইজেশন’. [ kalerkantho ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Religious minorities unsafe in India. [ observerbd ]</title>
-      <link>https://www.observerbd.com/news/560815</link>
-      <pubDate>Sat, 03 Jan 2026 17:01:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline highlights a systemic issue of safety for religious minorities in India, indicating a long-term social trend.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Religious minorities unsafe in India " class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="Religious minorities unsafe in India " /&gt;For more than the last one and a half decades, through state policies, political statementsand administrative decisions, India has been ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
+      <title>আমেরিকা যে দেশে হাত দিয়েছে, পরে তাদের কী হয়েছে?. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/thoughts#60e4ba40e966a778ae218a495f85260e</link>
+      <pubDate>Mon, 05 Jan 2026 04:07:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আমেরিকা যে দেশে হাত দিয়েছে, পরে তাদের কী হয়েছে?. [ chaarcha ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Braille system for dignified life. [ observerbd ]</title>
-      <link>https://www.observerbd.com/news/560816</link>
-      <pubDate>Sat, 03 Jan 2026 16:46:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline discusses the implementation of the Braille system, which has implications for social inclusion and accessibility.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Braille system for dignified life" class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="Braille system for dignified life" /&gt;Every year on January 4th, the global community observes World Braille Day. It is a day dedicated to Louis Braille, ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
+      <title>প্রকাশ্যে ধূমপান বন্ধ হোক. [ rupalibangladesh ]</title>
+      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/104993</link>
+      <pubDate>Mon, 05 Jan 2026 02:27:44 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রকাশ্যে ধূমপান বন্ধ হোক. [ rupalibangladesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Experimentation is future of smarter companies. [ observerbd ]</title>
-      <link>https://www.observerbd.com/news/560817</link>
-      <pubDate>Sat, 03 Jan 2026 16:31:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline suggests that experimentation is key for companies to become smarter, implying a strategic direction for economic development.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Experimentation is future of smarter companies" class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="Experimentation is future of smarter companies" /&gt;For years, A/B testing, a method of comparing two versions, has been treated as a handy optimisation trick: tweak a ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
+      <title>মাদুরোকে ধরে নিয়ে যাওয়া, বিশ্বব্যবস্থায় অশনি সঙ্কেত. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/editorial/AtaCbo5xT8DZ</link>
+      <pubDate>Sun, 04 Jan 2026 15:39:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মাদুরোকে ধরে নিয়ে যাওয়া, বিশ্বব্যবস্থায় অশনি সঙ্কেত. [ dailynayadiganta ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Is this a gateway to more intrusive surveillance?. [ thedailystar ]</title>
-      <link>https://www.thedailystar.net/opinion/editorial/news/gateway-more-intrusive-surveillance-4072211</link>
-      <pubDate>Sat, 03 Jan 2026 14:59:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline questions the potential for increased surveillance, indicating a concern about institutional control and privacy.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;NEIR launch has raised safety and livelihood concerns&lt;/p&gt;</description>
+      <title>১২ ফেব্রুয়ারির নির্বাচন : গণতন্ত্রের পুনরুত্থান. [ kalbela ]</title>
+      <link>https://www.kalbela.com/opinion/sub-editorial/254659</link>
+      <pubDate>Sun, 04 Jan 2026 15:01:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;১২ ফেব্রুয়ারির নির্বাচন : গণতন্ত্রের পুনরুত্থান. [ kalbela ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Human rights situation deterioration: A warning for democratic transition. [ en ]</title>
-      <link>https://en.prothomalo.com/opinion/editorial/dhazzhsajw</link>
-      <pubDate>Sat, 03 Jan 2026 12:48:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline warns about the deterioration of human rights, which has implications for democratic transition and long-term social stability.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Human rights situation deterioration: A warning for democratic transition. [ en ]&lt;/p&gt;</description>
+      <title>নির্বাচন কি মবোক্রেসি বন্ধ করবে?. [ sangbad ]</title>
+      <link>https://sangbad.net.bd/opinion/post-editorial/2026/171538</link>
+      <pubDate>Sun, 04 Jan 2026 14:25:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নির্বাচন কি মবোক্রেসি বন্ধ করবে?. [ sangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tarique, Shafiqur, Nahid, Mamunul cleared as EC wraps up scrutiny</title>
-      <link>https://www.daily-sun.com/front-page/849630</link>
-      <pubDate>Sat, 03 Jan 2026 17:11:47 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reports on the outcome of the EC's scrutiny, which affects the political landscape and institutional balance.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Tarique, Shafiqur, Nahid, Mamunul cleared as EC wraps up scrutiny&lt;/p&gt;</description>
+      <title>বৈষম্যবিরোধী ছাত্রনেতার থানায় হুমকির পরে গ্রেফতার ও মুক্তি, আইনের শাসন নিয়ে প্রশ্ন. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/c1wzjxz8drgo?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Sun, 04 Jan 2026 14:17:17 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বানিয়াচং থানা ও এস আই সন্তোষ চৌধুরীকে পুড়িয়ে দেওয়ার ঘটনা সম্পর্কে হবিগঞ্জের বৈষম্যবিরোধী ছাত্র আন্দোলনের নেতা মাহদী হাসানের বক্তব্য নিয়ে সমালোচনার মুখে তাকে গ্রেফতার করা হয়। তবে  সেই গ্রেফতারের প্রতিবাদে তার সমর্থকদের বিক্ষোভের প্রেক্ষাপটে তাকে মুক্তি দেওয়া হলে তা নিয়েও চলছে নানা আলোচনা সমালোচনা ।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Khaleda Zia architect of parliamentary democracy in Bangladesh: Porwar</title>
-      <link>https://www.daily-sun.com/back-page/849641</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Recognition of parliamentary democracy architects clarifies institutional historical foundations.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.daily-sun.com/editorial/849672'&gt;Governance Successes of Begum Khaleda Zia. [ daily-sun ]&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Khaleda Zia architect of parliamentary democracy in Bangladesh: Porwar&lt;/p&gt;</description>
+      <title>ইরানিরা যুক্তরাষ্ট্রের অর্থনৈতিক যুদ্ধ থেকে মুক্তি চায়. [ khaborerkagoj ]</title>
+      <link>https://www.khaborerkagoj.com/opinion/900042</link>
+      <pubDate>Sun, 04 Jan 2026 13:37:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ইরানিরা যুক্তরাষ্ট্রের অর্থনৈতিক যুদ্ধ থেকে মুক্তি চায়. [ khaborerkagoj ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tarique Rahman, the ray of light after Khaleda Zia</title>
-      <link>https://www.daily-sun.com/back-page/849640</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Leadership succession narratives reveal strategic power realignments in political systems.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Tarique Rahman, the ray of light after Khaleda Zia&lt;/p&gt;</description>
+      <title>ভেনেজুয়েলায় মার্কিন অভিযান. [ sangbad ]</title>
+      <link>https://sangbad.net.bd/opinion/editorial/2026/171534</link>
+      <pubDate>Sun, 04 Jan 2026 13:07:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলায় মার্কিন অভিযান. [ sangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Jatiya Party leader Anisul demands fair election</title>
-      <link>https://www.daily-sun.com/metropolis/849650</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Fair election demands reflect institutional pressures to reform governance practices.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Jatiya Party leader Anisul demands fair election&lt;/p&gt;</description>
+      <title>লাতিন আমেরিকা, ইউক্রেন ও তাইওয়ান নিয়ে কি গোপন সমঝোতায় তিন পরাশক্তি. [ ajkerpatrika ]</title>
+      <link>https://www.ajkerpatrika.com/analysis/ajphin2bmn2r2</link>
+      <pubDate>Sun, 04 Jan 2026 12:20:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;লাতিন আমেরিকা, ইউক্রেন ও তাইওয়ান নিয়ে কি গোপন সমঝোতায় তিন পরাশক্তি. [ ajkerpatrika ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sattar made Tarique Rahman’s private secretary, Shibly press secretary</title>
-      <link>https://www.daily-sun.com/metropolis/849649</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Political office appointments establish institutional hierarchies and governance structures.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Sattar made Tarique Rahman’s private secretary, Shibly press secretary&lt;/p&gt;</description>
+      <title>সামাজিক বৈপ্লবিক পরিবর্তন ও অর্থনৈতিক মুক্তি. [ banglanews24 ]</title>
+      <link>https://www.banglanews24.com/opinion/news/bd/1630353.details</link>
+      <pubDate>Sun, 04 Jan 2026 10:37:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের আর্থ-সামাজিক পরিবর্তনের ইতিহাসে বেগম খালেদা জিয়ার শাসনকালকে একটি শান্ত বিপ্লবের (Silent Revolution) যুগ হিসেবে অভিহিত করা হয়। বিশেষ করে নারী...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>EC launches extensive awareness campaign on referendum</title>
-      <link>https://www.daily-sun.com/metropolis/849648</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline announces the EC's awareness campaign on the referendum, indicating an institutional effort to inform the public.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;EC launches extensive awareness campaign on referendum&lt;/p&gt;</description>
+      <title>পানামা অভিযান - সবশেষ যে প্রেসিডেন্টকে দেশ থেকে তুলে নিয়ে গিয়েছিল যুক্তরাষ্ট্র. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/cje10jvwy02o?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Sun, 04 Jan 2026 09:48:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;৩৬ বছর আগে যুক্তরাষ্ট্রের চালানাে আরেক অভিযানে ভেনেজুয়েলার প্রেসিডেন্ট নিকোলাস মাদুরোর মতই সেই দেশের রাষ্ট্রপ্রধানকে তুলে নিয়ে গিয়েছিল যুক্তরাষ্ট্র। ১৯৮৯ সালে লাতিন আমেরিকার দেশ পানামায় সামরিক অভিযান চালিয়ে উৎখাত করা হয় জেনারেল ম্যানুয়েল নোরিয়েগাকে।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Experts urge environment-friendly shrimp farming in coastal areas</title>
-      <link>https://www.daily-sun.com/my-districts/849662</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline discusses the need for environment-friendly shrimp farming, which has implications for sustainable economic practices.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Experts urge environment-friendly shrimp farming in coastal areas&lt;/p&gt;</description>
+      <title>Let electoral battle intensify, let national unity remain intact. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/opinion/849920/let-electoral-battle-intensify-let-national-unity-remain-intact</link>
+      <pubDate>Mon, 05 Jan 2026 04:06:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Let electoral battle intensify, let national unity remain intact. [ daily-sun ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Rioters ‘must be put in their place’</title>
-      <link>https://www.daily-sun.com/world-print/849677</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Reflects institutional authority and enforcement priorities in managing civil unrest.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Rioters ‘must be put in their place’&lt;/p&gt;</description>
+      <title>The quiet strain behind economic headlines. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/views/news/the-quiet-strain-behind-economic-headlines-4073246</link>
+      <pubDate>Mon, 05 Jan 2026 03:07:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh’s economy seems to be stabilising at first blush. Reserve levels have climbed, imports have slowed, and officials are finding some signs of resilience in the aftermath of a tumultuous period. For a country accustomed to absorbing shocks, this narrative of cautious recovery sounds reas&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Is Existing Law Enough to Ensure Equal Rights?</title>
-      <link>https://www.daily-sun.com/yOUTH-voice/849673</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[IDEAS, ARGUMENTS &amp; LONG-TERM TRENDS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline questions the adequacy of existing law in ensuring equal rights, indicating a need for legal or policy change.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Is Existing Law Enough to Ensure Equal Rights?&lt;/p&gt;</description>
+      <title>Poor management of traffic system. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/editorial/poor-management-of-traffic-system</link>
+      <pubDate>Sun, 04 Jan 2026 20:48:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The interim government has apparently failed to bring about any perceptible change in the atrocious traffic congestion and road safety.  On the contrary, the city's traffic situation appears to have worsened as Dhaka has literally become a city of road blockades. Since the government assumed o&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Offshore gas drive sparks fears over erosion of workers’ rights</title>
-      <link>https://www.daily-sun.com/back-page/849642</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reports on concerns about the erosion of workers' rights due to offshore gas drives, indicating a potential issue with labor practices.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh’s push to attract foreign investment in offshore oil and gas exploration has triggered fresh controversy, amid allegations that workers’&lt;/p&gt;</description>
+      <title>Trump is a threat to global order. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/views/trump-is-a-threat-to-global-order</link>
+      <pubDate>Sun, 04 Jan 2026 20:48:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="nuxt-link-active" href="https://politepaul.com/"&gt; Hasnat Abdul Hye&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Road accidents claim 7 lives in 5 districts</title>
-      <link>https://www.daily-sun.com/back-page/849638</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reports on road accidents, but the focus is on the systemic issue of road safety rather than individual incidents.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Seven people were killed and several others injured in separate road accidents across Bogura, Bagerhat, Kushtia, Barishal, and Satkhira on&lt;/p&gt;</description>
+      <title>Return of gold as safest asset. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/columns/return-of-gold-as-safest-asset</link>
+      <pubDate>Sun, 04 Jan 2026 20:48:53 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Return of gold as safest asset. [ thefinancialexpress ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ctg port revenue grows 7.55% as key indicators hit historic highs</title>
-      <link>https://www.daily-sun.com/back-page/849637</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reports on the growth of Ctg port revenue, indicating a positive trend in economic activity.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Despite year-long challenges, Chattogram Port posted 7.55% growth in revenue in the last calendar year, demonstrating operational excellence at the&lt;/p&gt;</description>
+      <title>LPG cylinder-price hike and BERC inaction. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/opinions/lpg-cylinder-price-hike-and-berc-inaction</link>
+      <pubDate>Sun, 04 Jan 2026 20:48:52 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;LPG cylinder-price hike and BERC inaction. [ thefinancialexpress ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Power handover to elected govt as soon as possible: Touhid</title>
-      <link>https://www.daily-sun.com/back-page/849636</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline states the intention for power handover to an elected government, indicating a commitment to democratic transition.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://today.thefinancialexpress.com.bd/metro-news/power-handover-to-elected-govt-as-soon-as-possible-touhid-1767459030'&gt;Power handover to elected govt as soon as possible: Touhid&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;The interim government aims to hand over power to the elected government as soon as possible after the election, Foreign&lt;/p&gt;</description>
+      <title>Break the LPG syndicate. [ today ]</title>
+      <link>https://today.thefinancialexpress.com.bd/editorial/break-the-lpg-syndicate-1767537331</link>
+      <pubDate>Sun, 04 Jan 2026 19:22:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The rampant control of syndicates in the country's gas sector...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Eco-friendly e-rickshaw pilot prog launched in Dhaka</title>
-      <link>https://www.daily-sun.com/back-page/849635</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline launches an eco-friendly e-rickshaw pilot program, indicating a strategic direction for sustainable transportation.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Battery-powered rickshaws cannot be removed from Dhaka overnight, says Fouzul&lt;/p&gt;</description>
+      <title>Maduro: The Abduction 
+of a President. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/editorial/849815</link>
+      <pubDate>Sun, 04 Jan 2026 18:55:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Maduro: The Abduction 
+of a President&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Dhaka trade fair offers opportunities ahead of post-LDC challenges</title>
-      <link>https://www.daily-sun.com/metropolis/849647</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline discusses the Dhaka trade fair as an opportunity ahead of post-LDC challenges, indicating a focus on economic development.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Says Commerce Adviser Sk Bashir Uddin&lt;/p&gt;</description>
+      <title>Delta Dreams and Bangladesh’s Coastal Challenges. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/editorial/849814</link>
+      <pubDate>Sun, 04 Jan 2026 18:52:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delta Dreams and Bangladesh’s Coastal Challenges&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Real election to be held after many years: Rizwana</title>
-      <link>https://www.daily-sun.com/metropolis/849646</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Signals political maneuvering and timing of institutional power transitions.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Information and Broadcasting Adviser Syeda Rizwana Hasan said on Saturday a real election will be held in the country after&lt;/p&gt;</description>
+      <title>Time is running out on LDC preparedness. [ daily-sun ]</title>
+      <link>https://www.daily-sun.com/editorial/849812</link>
+      <pubDate>Sun, 04 Jan 2026 18:52:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Time is running out on LDC preparedness&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Enforced disappearance inquiry commission’s tenure extended</title>
-      <link>https://www.daily-sun.com/metropolis/849645</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reports on the extension of the enforced disappearance inquiry commission's tenure, indicating an institutional effort to address human rights issues.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The tenure of the Commission of Inquiry on Enforced Disappearances has been extended until 15 January. The Cabinet Division issued a&lt;/p&gt;</description>
+      <title>It Is Very Difficult to Move Forward Without Accountability. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346556/it-is-very-difficult-to-move-forward-without-accountability</link>
+      <pubDate>Sun, 04 Jan 2026 18:38:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;It Is Very Difficult to Move Forward Without Accountability. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>66 HC benches reconstituted</title>
-      <link>https://www.daily-sun.com/metropolis/849644</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;This headline reports on the reconstitution of 66 HC benches, indicating a change in the judicial institutional structure.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Judicial activities resume today&lt;/p&gt;</description>
+      <title>Beijing wants fair and  non-discriminatory trade ties with Europe. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346560/beijing-wants-fair-and--non-discriminatory-trade-ties-with-europe</link>
+      <pubDate>Sun, 04 Jan 2026 18:38:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Beijing wants fair and  non-discriminatory trade ties with Europe. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Members of the Bangladesh Hindu Buddhist Christian Unity Council meet BNP’s acting chairman Tarique Rahman at his Gulshan residence on Saturday to express shock over former prime minister and BNP Chairperson Khaleda Zia’s death. -BNP Photo</title>
-      <link>https://www.daily-sun.com/metropolis/849643</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Illustrates intergroup political engagement and symbolic alignment in post-conflict contexts.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;29m ago&lt;/p&gt;</description>
+      <title>2026 will test cyber defences. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/287168/2026-will-test-cyber-defences</link>
+      <pubDate>Sun, 04 Jan 2026 18:32:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;2026 will test cyber defences. [ newagebd ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>NSC ousts Sazzad, but shooter Koly pays the price</title>
-      <link>https://www.daily-sun.com/winner/849680</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Governance &amp; Control]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Shows a power shift within the National Security Council, affecting institutional decision‑making&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;In a dramatic turn of events, the National Sports Council (NSC) removed GM Haider Sazzad from his position as Joint&lt;/p&gt;</description>
+      <title>2026: Reclaiming Bangladesh’s Future. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346534/2026-reclaiming-bangladeshs-future</link>
+      <pubDate>Sun, 04 Jan 2026 18:23:38 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;2026: Reclaiming Bangladesh’s Future. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Community-based action to reduce climate change impacts</title>
-      <link>https://www.daily-sun.com/news/849654</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Ideas, Arguments &amp; Long‑Term Trends]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Highlights community‑based climate action as a systemic approach to mitigation&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bashundhara Shuvosangho on Saturday organised a discussion meeting on community-based climate action to curb growing climate impacts. The platform’s Chuadanga district&lt;/p&gt;</description>
+      <title>How Dhaka’s Uncontrolled Population Growth Is Pushing the City Beyond Its Breaking Point. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346559/how-dhakas-uncontrolled-population-growth-is-pushing-the-city-beyond-its-breaking-point</link>
+      <pubDate>Sun, 04 Jan 2026 18:23:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;How Dhaka’s Uncontrolled Population Growth Is Pushing the City Beyond Its Breaking Point. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>‘Peace president’ at war on multiple fronts</title>
-      <link>https://www.daily-sun.com/world-print/849679</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Power Relations &amp; Strategy]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Depicts a leader’s multi‑front war strategy, shaping national security posture&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The enthusiasm for war would seem at odds for a president who has loudly declared that he deserves the Nobel&lt;/p&gt;</description>
+      <title>Cooking gas held hostage by cartels. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/287166/cooking-gas-held-hostage-by-cartels</link>
+      <pubDate>Sun, 04 Jan 2026 18:17:59 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Cooking gas held hostage by cartels. [ newagebd ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>UAE calls for restraint amid escalating Yemen crisis</title>
-      <link>https://www.daily-sun.com/world-print/849675</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;International diplomatic intervention in a regional conflict signals strategic alignment and geopolitical influence.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The United Arab Emirates said on Saturday it was deeply concerned by an escalation in Yemen after Saudi-backed government forces&lt;/p&gt;</description>
+      <title>Climate change influencing weather patterns. [ observerbd ]</title>
+      <link>https://www.observerbd.com/news/560991</link>
+      <pubDate>Sun, 04 Jan 2026 18:08:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Climate change influencing weather patterns " class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="Climate change influencing weather patterns " /&gt;Climate change in Bangladesh is usually discussed through the familiar language of floods, cyclones, heatwaves, and rising seas. Winter, by ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Arrival and Protection of Migratory Birds</title>
-      <link>https://www.daily-sun.com/yOUTH-voice/849674</link>
-      <pubDate>Sat, 03 Jan 2026 18:29:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Ideas, Arguments &amp; Long‑Term Trends]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Announces policy for migratory bird protection, indicating a lasting conservation framework&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;In winter, the rivers, canals, haors, beels and islands of Bangladesh become filled with the chirping of migratory birds. From&lt;/p&gt;</description>
+      <title>From artificial  intelligence to super intelligence: What are we heading for?. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346506/from-artificial--intelligence-to-super-intelligence-what-are-we-heading-for</link>
+      <pubDate>Sun, 04 Jan 2026 17:53:36 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;From artificial  intelligence to super intelligence: What are we heading for?. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Political stability crucial for economic recovery before election: DCCI</title>
-      <link>https://www.daily-sun.com/business-print/849708</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Political stability is deemed crucial for economic recovery, indicating a direct link between governance and economic performance.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.thedailystar.net/business/news/dcci-urges-political-stability-safeguard-economic-recovery-2026-4072166'&gt;DCCI urges political stability to safeguard economic recovery in 2026&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;Political stability crucial for economic recovery before election: DCCI&lt;/p&gt;</description>
+      <title>Melting Arctic ice threatens global ecosystem. [ observerbd ]</title>
+      <link>https://www.observerbd.com/news/560993</link>
+      <pubDate>Sun, 04 Jan 2026 17:38:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img align="left" alt="Melting Arctic ice threatens global ecosystem" class="iborder lazy img_move radius" style="margin-right: 7px; width: 154px; height: 115px;" title="Melting Arctic ice threatens global ecosystem" /&gt;Climate change is rapidly transforming the frozen Arctic, producing consequences that extend far beyond the polar region and threaten ecosystems ...						&lt;div class="clear"&gt;&lt;/div&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>IDRA tightens rules on insurance claim surveys</title>
-      <link>https://www.daily-sun.com/business-print/849707</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Tightened rules on insurance claim surveys suggest regulatory changes that could impact the insurance sector's operations and consumer protection.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;IDRA tightens rules on insurance claim surveys&lt;/p&gt;</description>
+      <title>Between mediation and manipulation. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/287101/between-mediation-and-manipulation</link>
+      <pubDate>Sun, 04 Jan 2026 16:28:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Between mediation and manipulation. [ newagebd ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>New ordinance tightens rules on travel agencies</title>
-      <link>https://www.daily-sun.com/business-print/849709</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;A new ordinance tightening rules on travel agencies indicates a shift in regulatory oversight, potentially affecting the travel industry's operations and consumer rights.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;It explicitly bans “false booking,” a practice used to create artificial ticket crises&lt;/p&gt;</description>
+      <title>Death of int’l law in plain sight. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/opinion/287164/death-of-intl-law-in-plain-sight</link>
+      <pubDate>Sun, 04 Jan 2026 16:13:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Death of int’l law in plain sight. [ newagebd ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Costly welfare projects launched without due planning: Adviser</title>
-      <link>https://www.daily-sun.com/business-print/849705</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The launch of costly welfare projects without due planning raises questions about governmental planning and budget allocation processes.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Several high-cost social welfare projects in Bangladesh have been implemented without proper feasibility studies, baseline data, or monitoring mechanisms, Social&lt;/p&gt;</description>
+      <title>US assault on Venezuela shreds global norms. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/editorial/287163/us-assault-on-venezuela-shreds-global-norms</link>
+      <pubDate>Sun, 04 Jan 2026 15:58:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;US assault on Venezuela shreds global norms. [ newagebd ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tesla loses EV crown to China’s BYD in 2025 as sales slip</title>
-      <link>https://www.daily-sun.com/business-print/849704</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Shifts in global EV market leadership reflect structural changes in industrial competitiveness and capital allocation.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Tesla's sales fell in 2025, the company reported Friday, ceding its position as the world's biggest electric vehicle maker for&lt;/p&gt;</description>
+      <title>How Bangladesh’s midnight cash markets move billions. [ tob ]</title>
+      <link>https://tob.news/how-bangladeshs-midnight-cash-markets-move-billions/</link>
+      <pubDate>Sun, 04 Jan 2026 15:55:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;How Bangladesh’s midnight cash markets move billions. [ tob ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trump blocks chips deal, cites security, China-related concerns</title>
-      <link>https://www.daily-sun.com/business-print/849703</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[POWER RELATIONS &amp; STRATEGY]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Trump's decision to block a chips deal citing security and China-related concerns reflects strategic and geopolitical considerations.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;President Donald Trump on Friday blocked U.S. photonics firm HieFo Corp's $3 million acquisition of assets in New Jersey-based aerospace&lt;/p&gt;</description>
+      <title>Are we entering an era of 'might is right'?. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/editorial/news/are-we-entering-era-might-right-4073131</link>
+      <pubDate>Sun, 04 Jan 2026 15:55:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;US action may embolden other powers and destroy global stability&lt;/p&gt;</description>
     </item>
     <item>
-      <title>FTSE 100 hits 10,000 mark for first time</title>
-      <link>https://www.daily-sun.com/business-print/849701</link>
-      <pubDate>Sat, 03 Jan 2026 18:51:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The FTSE 100 hitting a record mark indicates a significant economic milestone with potential implications for investor confidence and market trends.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The FTSE 100 index has climbed above 10,000 points for the first time, passing a significant stock market milestone, on&lt;/p&gt;</description>
+      <title>Time for firmer response to BSF’s border violence. [ newagebd ]</title>
+      <link>https://www.newagebd.net/post/editorial/287162/time-for-firmer-response-to-bsfs-border-violence</link>
+      <pubDate>Sun, 04 Jan 2026 15:43:22 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Time for firmer response to BSF’s border violence. [ newagebd ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Defeated forces are still active in country , says Rizwana Hasan</title>
-      <link>https://today.thefinancialexpress.com.bd/country/defeated-forces-are-still-active-in-country-says-rizwana-hasan-1767453353</link>
-      <pubDate>Sat, 03 Jan 2026 17:52:33 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Power Relations &amp; Strategy]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Statement that defeated forces remain active indicates ongoing security dynamics&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;SYLHET, Jan 3: Syeda Rizwana...&lt;/p&gt;</description>
+      <title>Venezuela attack and the geopolitics of oil control. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/views/news/venezuela-attack-and-the-geopolitics-oil-control-4073046</link>
+      <pubDate>Sun, 04 Jan 2026 13:42:52 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Venezuela attack and the geopolitics of oil control. [ thedailystar ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cox's Bazar's Nazirartek operates Tk 4b dried fish trade per year</title>
-      <link>https://today.thefinancialexpress.com.bd/country/coxs-bazars-nazirartek-operates-tk-4b-dried-fish-trade-per-year-1767453421</link>
-      <pubDate>Sat, 03 Jan 2026 17:37:33 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Economic &amp; Resource Flows]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Large annual dried‑fish trade volume illustrates significant sectoral economic activity&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;COX'S BAZAR, Jan 04: Cox's...&lt;/p&gt;</description>
+      <title>Why homemakers' labour still doesn't count. [ thefinancialexpress ]</title>
+      <link>https://thefinancialexpress.com.bd/views/opinions/why-homemakers-labour-still-doesnt-count</link>
+      <pubDate>Sun, 04 Jan 2026 11:17:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Why homemakers' labour still doesn't count. [ thefinancialexpress ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bangladesh gets cautious as  global rice price spikes</title>
-      <link>https://today.thefinancialexpress.com.bd/first-page/bangladesh-gets-cautious-as-global-rice-price-spikes-1767460241</link>
-      <pubDate>Sat, 03 Jan 2026 18:00:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Bangladesh's cautious stance in response to global rice price spikes indicates a strategic approach to food security and economic stability.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Global rice-price spike in recent months has nudged major rice-consuming...&lt;/p&gt;</description>
+      <title>Workplace harassment: A silent crisis undermining dignity, productivity, and growth. [ tbsnews ]</title>
+      <link>https://www.tbsnews.net/thoughts/workplace-harassment-silent-crisis-undermining-dignity-productivity-and-growth-1326021</link>
+      <pubDate>Sun, 04 Jan 2026 10:13:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Workplace harassment: A silent crisis undermining dignity, productivity, and growth. [ tbsnews ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>149 nominations  cleared, 66 rejected</title>
-      <link>https://today.thefinancialexpress.com.bd/first-page/149-nominations-cleared-66-rejected-1767460466</link>
-      <pubDate>Sat, 03 Jan 2026 17:30:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Nomination approvals/rejections reflect administrative authority and institutional decision-making processes.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Returning officers on Saturday declared 149 nomination papers valid and...&lt;/p&gt;</description>
+      <title>Can solar power help solve Bangladesh’s auto-rickshaw electricity theft crisis?. [ tbsnews ]</title>
+      <link>https://www.tbsnews.net/thoughts/can-solar-power-help-solve-bangladeshs-auto-rickshaw-electricity-theft-crisis-1325981</link>
+      <pubDate>Sun, 04 Jan 2026 08:58:52 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The rise of auto-rickshaws leads to nearly Tk4,000 crore in power theft each year in Dhaka. This is where solar power could help — it may not solve everything, but it offers a real and scalable...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Adilur Rahman Khan, adviser to the Ministry of Local Government, Rural Development and Cooperatives</title>
-      <link>https://today.thefinancialexpress.com.bd/politics-policies/adilur-rahman-khan-adviser-to-the-ministry-of-local-government-rural-development-and-cooperatives-1767459333</link>
-      <pubDate>Sat, 03 Jan 2026 17:15:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Governance &amp; Control]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Indicates a key advisory appointment affecting the Ministry of Local Government's policy direction.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;
-Adilur Rahman Khan, adviser to the Ministry of Local Government,...&lt;/p&gt;</description>
+      <title>Might Is Right Is The New Creed, Says Shashi Tharoor. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346533/might-is-right-is-the-new-creed-says-shashi-tharoor</link>
+      <pubDate>Sun, 04 Jan 2026 08:58:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Mistral-Small, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Might Is Right Is The New Creed, Says Shashi Tharoor. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Anisul Islam Mahmud, CPB GS  Kafi, Zara, Hasnat Kaiyum of  Rastro Songskar lose nominations</title>
-      <link>https://today.thefinancialexpress.com.bd/politics-policies/anisul-islam-mahmud-cpb-gs-kafi-zara-hasnat-kaiyum-of-rastro-songskar-lose-nominations-1767459508</link>
-      <pubDate>Sat, 03 Jan 2026 17:00:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Rejection of nominations indicates shifts in institutional power dynamics and governance priorities.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;📎 Similar Coverage:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='https://www.daily-sun.com/metropolis/849651'&gt;Nominations of 23 candidates scrapped in Ctg, Bagerhat, Jashore&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;hr/&gt;&lt;p&gt;The nomination papers of Anisul Islam Mahmud, chairman of a...&lt;/p&gt;</description>
+      <title>Why US Attack on Venezuela Is Inadmissible and Improvident. [ dailyasianage ]</title>
+      <link>https://dailyasianage.com/news/346532/why-us-attack-on-venezuela-is-inadmissible-and-improvident</link>
+      <pubDate>Sun, 04 Jan 2026 08:43:35 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Why US Attack on Venezuela Is Inadmissible and Improvident. [ dailyasianage ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Fakhrul, Nahid's nominations declared valid</title>
-      <link>https://today.thefinancialexpress.com.bd/politics-policies/fakhrul-nahids-nominations-declared-valid-1767459522</link>
-      <pubDate>Sat, 03 Jan 2026 16:45:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;The validation or rejection of nominations for political positions reflects the operational mechanics of electoral processes and institutional governance.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The nomination of BNP Secretary General Mirza Fakhrul Islam Alamgir...&lt;/p&gt;</description>
+      <title>Why coastal communities don’t get enough milk and vegetables. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/slow-reads/unheard-voices/news/why-coastal-communities-dont-get-enough-milk-and-vegetables-4071611</link>
+      <pubDate>Sun, 04 Jan 2026 07:49:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Why coastal communities don’t get enough milk and vegetables. [ thedailystar ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Current govt will ensure fair polls, hopes Hafizuddin</title>
-      <link>https://today.thefinancialexpress.com.bd/politics-policies/current-govt-will-ensure-fair-polls-hopes-hafizuddin-1767459536</link>
-      <pubDate>Sat, 03 Jan 2026 16:30:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[GOVERNANCE &amp; CONTROL]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Assurances of fair polls by the current government indicate a commitment to democratic processes and institutional integrity.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;BNP Standing Committee member Hafizuddin Ahmed on Saturday expressed optimism...&lt;/p&gt;</description>
+      <title>Banking Sector after the Illusion of Stability. [ daily-sun ]</title>
+      <link>https://daily-sun.com/editorial/849484</link>
+      <pubDate>Sun, 04 Jan 2026 06:58:46 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Banking Sector after the Illusion of Stability. [ daily-sun ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>BRTC's CNG bus-purchase project limping</title>
-      <link>https://today.thefinancialexpress.com.bd/metro-news/brtcs-cng-bus-purchase-project-limping-1767458886</link>
-      <pubDate>Sat, 03 Jan 2026 15:45:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Governance &amp; Control]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Highlights challenges in a state transport procurement project, affecting public resource allocation.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The Bangladesh Road Transport Corporation (BRTC) has spent only Tk...&lt;/p&gt;</description>
+      <title>A Fragile Frontier: Why the Thailand-Cambodia truce keeps failing. [ tob ]</title>
+      <link>https://tob.news/a-fragile-frontier-why-the-thailand-cambodia-truce-keeps-failing/</link>
+      <pubDate>Sun, 04 Jan 2026 06:40:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;A Fragile Frontier: Why the Thailand-Cambodia truce keeps failing. [ tob ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>LNG imports from long-term  suppliers to rise 54pc in 2026</title>
-      <link>https://today.thefinancialexpress.com.bd/last-page/lng-imports-from-long-term-suppliers-to-rise-54pc-in-2026-1767460636</link>
-      <pubDate>Sat, 03 Jan 2026 12:30:27 -0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[ECONOMIC &amp; RESOURCE FLOWS]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;An increase in LNG imports from long-term suppliers suggests a strategic shift in energy sourcing with implications for energy security and economic planning.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh's liquefied natural gas (LNG) imports from long-term suppliers will...&lt;/p&gt;</description>
+      <title>Why is our logistics policy failing to deliver on its promise?. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/views/news/why-our-logistics-policy-failing-deliver-its-promise-4072326</link>
+      <pubDate>Sun, 04 Jan 2026 06:40:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;In 2024, Bangladesh announced its first National Logistics Policy, a crucial reform for an economy where logistics costs devour 15-20 percent of GDP—nearly double the global average.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Millions suffer globally due to e-waste. [ tob ]</title>
+      <link>https://tob.news/millions-suffer-globally-due-to-e-waste/</link>
+      <pubDate>Sun, 04 Jan 2026 06:25:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Millions suffer globally due to e-waste. [ tob ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>For better water management. [ dhakatribune ]</title>
+      <link>https://www.dhakatribune.com/opinion/editorial/400212/for-better-water-management</link>
+      <pubDate>Sun, 04 Jan 2026 05:36:44 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;For better water management. [ dhakatribune ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>There is no progress without women leaders in politics. [ dhakatribune ]</title>
+      <link>https://www.dhakatribune.com/opinion/editorial/400211/there-is-no-progress-without-women-leaders-in</link>
+      <pubDate>Sun, 04 Jan 2026 05:35:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;There is no progress without women leaders in politics. [ dhakatribune ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A long-overdue urban roadmap. [ thedailystar ]</title>
+      <link>https://www.thedailystar.net/opinion/news/long-overdue-urban-roadmap-4072346</link>
+      <pubDate>Sun, 04 Jan 2026 05:35:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;National Urban Development Policy-2025 should guide planned urbanisation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>খালেদা জিয়ার অর্থনৈতিক উত্তরাধিকার ও সামনের পথ. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/c59ho3y4pz</link>
+      <pubDate>Sun, 04 Jan 2026 11:52:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Mistral-Small, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;খালেদা জিয়ার অর্থনৈতিক উত্তরাধিকার ও সামনের পথ. [ prothomalo ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ভেনেজুয়েলায় অবৈধ ক্যু, এরপর কোথায়?. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/thoughts#44f28ccda02cb6b78e3675e66a8b0c9e</link>
+      <pubDate>Sun, 04 Jan 2026 09:54:07 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Mistral-Small&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেনেজুয়েলায় অবৈধ ক্যু, এরপর কোথায়?. [ chaarcha ]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
