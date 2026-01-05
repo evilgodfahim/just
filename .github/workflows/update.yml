@@ -2,7 +2,7 @@ name: Daily Article Filter
 on:
   schedule:
     # 05:00 UTC is 11:00 AM Bangladesh Standard Time
-    - cron: '0 5 * * *'
+    - cron: '0 9 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
