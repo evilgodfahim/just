@@ -7,13 +7,12 @@ import re
 from xml.etree import ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-import numpy as np
 
 # --- Configuration ---
 MAX_FEED_ITEMS = 100
 
 URLS = [
-     "https://evilgodfahim.github.io/gpd/daily_feed.xml",
+    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
     "https://evilgodfahim.github.io/daily/daily_master.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed.xml",
@@ -225,7 +224,7 @@ def extract_json_from_text(text):
     except json.JSONDecodeError:
         pass
     try:
-        match = re.search(r'(\[.*\])', text, re.DOTALL)
+        match = re.search(r'(\[[\d,\s]*\])', text, re.DOTALL)
         if match:
             return json.loads(match.group(1))
     except json.JSONDecodeError:
@@ -238,7 +237,7 @@ def call_model(model_info, batch):
 
     # Select API based on model config
     api_type = model_info.get("api", "groq")
-    
+
     if api_type == "openrouter":
         api_url = OPENROUTER_API_URL
         api_key = OPENROUTER_API_KEY
@@ -335,7 +334,7 @@ def call_model(model_info, batch):
                         continue
                 else:
                     content = response.json()['choices'][0]['message']['content'].strip()
-                
+
                 if content.startswith("```"):
                     content = content.replace("```json", "").replace("```", "").strip()
 
@@ -365,119 +364,6 @@ def call_model(model_info, batch):
     print(f"    [{model_info['display']}] Failed after {max_retries} attempts.", flush=True)
     return []
 
-def detect_language(text):
-    """Detect if text is primarily Bangla or English based on Unicode ranges"""
-    bangla_chars = sum(1 for c in text if '\u0980' <= c <= '\u09FF')
-    total_chars = sum(1 for c in text if c.isalpha())
-    
-    if total_chars == 0:
-        return 'unknown'
-    
-    bangla_ratio = bangla_chars / total_chars
-    return 'bangla' if bangla_ratio > 0.3 else 'english'
-
-def hierarchical_deduplication(articles, distance_threshold=0.35):
-    """
-    Uses hierarchical clustering with semantic embeddings to remove duplicates.
-    Language-aware: uses stricter threshold for non-English content.
-    
-    Args:
-        articles: List of article dictionaries with 'title' field
-        distance_threshold: Maximum distance (1 - cosine_similarity) to consider duplicates
-                          Lower = stricter (0.35 ≈ 0.65 similarity)
-    """
-    if not articles or len(articles) < 2:
-        return articles
-
-    print(f"\n🧠 Language-Aware Hierarchical Deduplication...", flush=True)
-
-    try:
-        # Detect language for each article
-        for article in articles:
-            article['detected_lang'] = detect_language(article['title'])
-        
-        # Separate by language
-        bangla_articles = [a for a in articles if a.get('detected_lang') == 'bangla']
-        english_articles = [a for a in articles if a.get('detected_lang') == 'english']
-        unknown_articles = [a for a in articles if a.get('detected_lang') == 'unknown']
-        
-        print(f"   📊 Language distribution: {len(bangla_articles)} Bangla, {len(english_articles)} English, {len(unknown_articles)} Unknown", flush=True)
-        
-        deduplicated = []
-        
-        # Process each language group separately
-        for lang_group, lang_name, threshold in [
-            (bangla_articles, 'Bangla', 0.15),  # Much stricter for Bangla
-            (english_articles, 'English', distance_threshold),
-            (unknown_articles, 'Unknown', 0.25)
-        ]:
-            if not lang_group:
-                continue
-            
-            if len(lang_group) == 1:
-                deduplicated.extend(lang_group)
-                continue
-            
-            print(f"   🔄 Processing {len(lang_group)} {lang_name} articles (threshold={threshold})...", flush=True)
-            
-            # Generate embeddings
-            titles = [a['title'] for a in lang_group]
-            embeddings = embedding_model.encode(titles, show_progress_bar=False)
-
-            # Compute pairwise cosine distances
-            from sklearn.metrics.pairwise import cosine_distances
-            distance_matrix = cosine_distances(embeddings)
-
-            # Convert to condensed form for scipy
-            condensed_distances = squareform(distance_matrix, checks=False)
-
-            # Hierarchical clustering using average linkage
-            linkage_matrix = linkage(condensed_distances, method='average')
-
-            # Cut tree at threshold to get cluster labels
-            cluster_labels = fcluster(linkage_matrix, t=threshold, criterion='distance')
-
-            # Group articles by cluster
-            clusters = {}
-            for idx, label in enumerate(cluster_labels):
-                if label not in clusters:
-                    clusters[label] = []
-                clusters[label].append((idx, lang_group[idx]))
-
-            # Keep the longest title from each cluster and store similar articles
-            duplicates_removed = 0
-
-            for cluster_id, cluster_articles in clusters.items():
-                if len(cluster_articles) > 1:
-                    duplicates_removed += len(cluster_articles) - 1
-
-                # Sort by title length (longest first)
-                cluster_articles.sort(key=lambda x: len(x[1]['title']), reverse=True)
-
-                # Keep the best article
-                best_article = cluster_articles[0][1].copy()
-
-                # Add clustered articles to metadata (only if actually similar)
-                if len(cluster_articles) > 1:
-                    similar_articles = [art[1] for art in cluster_articles[1:]]
-                    best_article['clustered_articles'] = similar_articles
-
-                deduplicated.append(best_article)
-            
-            print(f"      ✅ {lang_name}: Removed {duplicates_removed} duplicates, kept {len(clusters)} unique", flush=True)
-
-        # Sort back by original order (via id)
-        deduplicated.sort(key=lambda x: x.get('id', 0))
-
-        total_removed = len(articles) - len(deduplicated)
-        print(f"   ✅ Total: Removed {total_removed} semantic duplicates from {len(articles)} articles", flush=True)
-
-        return deduplicated
-
-    except Exception as e:
-        print(f"   ⚠️  Deduplication failed: {e}, returning original list", flush=True)
-        return articles
-
 def main():
     print("=" * 60, flush=True)
     print("Elite News Curator - Multi-API Ensemble", flush=True)
@@ -487,22 +373,22 @@ def main():
     if not GROQ_API_KEY:
         print("::error::GEM environment variable is missing!", flush=True)
         sys.exit(1)
-    
+
     needs_openrouter = any(m.get("api") == "openrouter" for m in MODELS)
     if needs_openrouter and not OPENROUTER_API_KEY:
         print("::error::OP environment variable is missing!", flush=True)
         sys.exit(1)
-    
+
     needs_fyra = any(m.get("api") == "fyra" for m in MODELS)
     if needs_fyra and not FYRA_API_KEY:
         print("::error::FRY environment variable is missing!", flush=True)
         sys.exit(1)
-    
+
     needs_mistral = any(m.get("api") == "mistral" for m in MODELS)
     if needs_mistral and not MISTRAL_API_KEY:
         print("::error::GEM2 environment variable is missing!", flush=True)
         sys.exit(1)
-    
+
     needs_google = any(m.get("api") == "google" for m in MODELS)
     if needs_google and not GOOGLE_API_KEY:
         print("::error::LAM environment variable is missing!", flush=True)
@@ -538,13 +424,12 @@ def main():
 
             if decisions:
                 print(f"    [{model_info['display']}] Selected {len(decisions)} articles", flush=True)
-                for d in decisions:
-                    aid = d.get('id')
-                    if aid is not None and isinstance(aid, int) and aid < len(articles):
+                for aid in decisions:
+                    if isinstance(aid, int) and aid < len(articles):
                         if aid not in selections_map:
-                            selections_map[aid] = {'models': [], 'decisions': []}
+                            selections_map[aid] = {'models': [], 'count': 0}
                         selections_map[aid]['models'].append(model_info['display'])
-                        selections_map[aid]['decisions'].append(d)
+                        selections_map[aid]['count'] += 1
             else:
                 print(f"    [{model_info['display']}] No selections", flush=True)
 
@@ -558,12 +443,11 @@ def main():
     for aid, info in selections_map.items():
         if len(info['models']) >= 2:  # At least 2 models must agree
             original = articles[aid].copy()
-            first_dec = info['decisions'][0]
-            original['category'] = first_dec.get('category', 'Priority')
-            original['reason'] = first_dec.get('reason', 'Systemic Significance')
+            original['category'] = 'Priority'
+            original['reason'] = 'Systemic Significance'
             original['selected_by'] = info['models']
             final_articles.append(original)
-    
+
     print(f"   ✅ {len(final_articles)} articles passed 2+ model consensus from {len(selections_map)} total selections", flush=True)
 
     # Results
