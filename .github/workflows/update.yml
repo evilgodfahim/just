@@ -29,7 +29,6 @@ jobs:
           FRY: ${{ secrets.FRY }}
           GEM2: ${{ secrets.GEM2 }}
           LAM: ${{ secrets.LAM }}
-          CLA: ${{ secrets.CLA }}
         run: python main.py
 
       - name: Push Filtered XML
