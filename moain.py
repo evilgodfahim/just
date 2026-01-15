@@ -4,39 +4,72 @@ import requests
 import time
 import sys
 import re
-import difflib
 from xml.etree import ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 # --- Configuration ---
-MAX_FEED_ITEMS = 100  # <--- Limit before spilling to overflow file
+MAX_FEED_ITEMS = 100
 
 URLS = [
-    "https://evilgodfahim.github.io/sci/daily_feed.xml",
-"https://evilgodfahim.github.io/bdlb/final.xml",
-    "https://evilgodfahim.github.io/fp/final.xml",
-    "https://evilgodfahim.github.io/bdl/final.xml",
-    "https://evilgodfahim.github.io/int/final.xml",
-    "https://evilgodfahim.github.io/gpd/daily_feed.xml",
-    "https://evilgodfahim.github.io/daily/daily_master.xml",
-    "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
+     "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed.xml",
     "https://evilgodfahim.github.io/edit/daily_feed.xml"
 ]
 
-# YOUR ORIGINAL MODELS
-# Note: Batch sizes kept at 25 to prevent "413 Payload" and JSON cutoff errors.
 MODELS = [
-    {"name": "llama-3.3-70b-versatile", "display": "Llama-3.3-70B", "batch_size": 25},
-    {"name": "qwen/qwen3-32b", "display": "Qwen-3-32B", "batch_size": 25},
-    {"name": "openai/gpt-oss-120b", "display": "GPT-OSS-120B", "batch_size": 25}
+    {
+        "name": "kimi-k2-instruct-0905",
+        "display": "Kimi-K2-Instruct",
+        "batch_size": 50,
+        "api": "fyra"
+    },
+    {
+        "name": "meta-llama/llama-3.3-70b-instruct",
+        "display": "Llama-3.3-70B",
+        "batch_size": 50,
+        "api": "openrouter"
+    },
+    {
+        "name": "qwen/qwen3-32b",
+        "display": "Qwen-3-32B",
+        "batch_size": 25,
+        "api": "groq"
+    },
+    {
+        "name": "openai/gpt-oss-120b",
+        "display": "GPT-OSS-120B",
+        "batch_size": 25,
+        "api": "groq"
+    },
+    {
+        "name": "mistral-small-latest",
+        "display": "Mistral-Small",
+        "batch_size": 40,
+        "api": "mistral"
+    },
+    {
+        "name": "gemini-2.5-flash-lite",
+        "display": "Gemini-2.5-Flash-Lite",
+        "batch_size": 100,
+        "api": "google"
+    }
 ]
 
+# API Keys and URLs
 GROQ_API_KEY = os.environ.get("GEM")
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+OPENROUTER_API_KEY = os.environ.get("OP")
+FYRA_API_KEY = os.environ.get("FRY")
+MISTRAL_API_KEY = os.environ.get("GEM2")
+GOOGLE_API_KEY = os.environ.get("LAM")
 
-# --- YOUR EXACT ORIGINAL PROMPT (RESTORED) ---
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+FYRA_API_URL = "https://fyra.im/v1/chat/completions"
+MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
+GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
+
+# --- SYSTEM PROMPT ---
 SYSTEM_PROMPT = """You are a Chief Information Filter.
 Your task is to select headlines with structural and lasting significance.
 You do not evaluate importance by popularity, novelty, or emotion.
@@ -75,25 +108,22 @@ Skip always: • Crime, accidents, or scandals without institutional consequence
 • Personal narratives without systemic implication
 • Repetition of already-settled facts
 OUTPUT SPEC (strict)
-Return only a JSON array.
-Each item must contain exactly: id
-category (one of the four lenses)
-reason (one concise sentence explaining the structural significance)
+Return only a JSON array of selected IDs.
+Example: [0, 5, 12, 23]
 No markdown.
 No commentary.
-No text outside JSON.
-Start with [ and end with ]."""
+No text outside JSON."""
 
 def save_xml(data, filename, error_message=None):
     os.makedirs(os.path.dirname(filename) if os.path.dirname(filename) else ".", exist_ok=True)
-    
+
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
-    
+
     feed_title = "Elite News Feed"
     if "overflow" in filename:
         feed_title += " (Overflow)"
-        
+
     ET.SubElement(channel, "title").text = feed_title
     ET.SubElement(channel, "lastBuildDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
     ET.SubElement(channel, "link").text = "https://github.com/evilgodfahim"
@@ -115,16 +145,16 @@ def save_xml(data, filename, error_message=None):
             ET.SubElement(item, "title").text = art['title']
             ET.SubElement(item, "link").text = art['link']
             ET.SubElement(item, "pubDate").text = art['pubDate']
-            
+
             models_str = ", ".join(art.get('selected_by', ['Unknown']))
             category_info = art.get('category', 'News')
             reason_info = art.get('reason', 'Selected')
-            
+
             html_desc = f"<p><b>[{category_info}]</b></p>"
             html_desc += f"<p><i>{reason_info}</i></p>"
             html_desc += f"<p><small>Selected by: {models_str}</small></p>"
             html_desc += f"<hr/><p>{art['description']}</p>"
-            
+
             ET.SubElement(item, "description").text = html_desc
 
     try:
@@ -140,7 +170,7 @@ def fetch_titles_only():
     seen_links = set()
     now = datetime.now(timezone.utc)
     cutoff_time = now - timedelta(hours=26)
-    
+
     print(f"Time Filter: Articles after {cutoff_time.strftime('%Y-%m-%d %H:%M UTC')}", flush=True)
     headers = {'User-Agent': 'BCS-Curator/3.0-Ensemble'}
 
@@ -148,7 +178,7 @@ def fetch_titles_only():
         try:
             r = requests.get(url, headers=headers, timeout=10)
             if r.status_code != 200: continue
-            
+
             try:
                 root = ET.fromstring(r.content)
             except: continue
@@ -156,7 +186,7 @@ def fetch_titles_only():
             for item in root.findall('.//item'):
                 pub_date = item.find('pubDate').text if item.find('pubDate') is not None else ""
                 if not pub_date: continue
-                
+
                 try:
                     dt = parsedate_to_datetime(pub_date)
                     if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
@@ -165,12 +195,17 @@ def fetch_titles_only():
                 except: continue
 
                 link = item.find('link').text or ""
+                if not link:
+                    # Fallback to guid if link is missing or empty
+                    guid = item.find('guid')
+                    link = guid.text if guid is not None else ""
+
                 if not link or link in seen_links: continue
-                
+
                 title = item.find('title').text or "No Title"
                 title = title.strip()
                 seen_links.add(link)
-                
+
                 desc = item.find('description')
                 desc_text = desc.text if desc is not None else ""
 
@@ -192,7 +227,7 @@ def extract_json_from_text(text):
     except json.JSONDecodeError:
         pass
     try:
-        match = re.search(r'(\[.*\])', text, re.DOTALL)
+        match = re.search(r'(\[[\d,\s]*\])', text, re.DOTALL)
         if match:
             return json.loads(match.group(1))
     except json.JSONDecodeError:
@@ -203,31 +238,112 @@ def call_model(model_info, batch):
     prompt_list = [f"{a['id']}: {a['title']}" for a in batch]
     prompt_text = "\n".join(prompt_list)
 
-    headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    
-    payload = {
-        "model": model_info["name"],
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt_text}
-        ],
-        "temperature": 0.3,
-        "max_tokens": 4096
-    }
+    # Select API based on model config
+    api_type = model_info.get("api", "groq")
+
+    if api_type == "openrouter":
+        api_url = OPENROUTER_API_URL
+        api_key = OPENROUTER_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/evilgodfahim",
+            "X-Title": "Elite News Curator"
+        }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
+    elif api_type == "fyra":
+        api_url = FYRA_API_URL
+        api_key = FYRA_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
+    elif api_type == "mistral":
+        api_url = MISTRAL_API_URL
+        api_key = MISTRAL_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
+    elif api_type == "google":
+        api_url = f"{GOOGLE_API_URL}/{model_info['name']}:generateContent?key={GOOGLE_API_KEY}"
+        api_key = GOOGLE_API_KEY
+        headers = {
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": f"{SYSTEM_PROMPT}\n\n{prompt_text}"
+                }]
+            }],
+            "generationConfig": {
+                "temperature": 0.3
+            }
+        }
+    else:  # groq
+        api_url = GROQ_API_URL
+        api_key = GROQ_API_KEY
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
 
     max_retries = 5
     base_wait = 30 
 
     for attempt in range(max_retries):
         try:
-            response = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=90)
-            
+            response = requests.post(api_url, headers=headers, json=payload, timeout=90)
+
             if response.status_code == 200:
-                content = response.json()['choices'][0]['message']['content'].strip()
-                # Clean code blocks
+                try:
+                    response_data = response.json()
+
+                    if 'error' in response_data:
+                        print(f"    [{model_info['display']}] API Error: {response_data.get('error', 'Unknown error')}", flush=True)
+                        continue
+
+                    if api_type == "google":
+                        content = response_data['candidates'][0]['content']['parts'][0]['text'].strip()
+                    else:
+                        content = response_data['choices'][0]['message']['content'].strip()
+
+                except (KeyError, IndexError) as e:
+                    print(f"    [{model_info['display']}] Response parse error: {e}", flush=True)
+                    continue
+
                 if content.startswith("```"):
                     content = content.replace("```json", "").replace("```", "").strip()
 
@@ -236,84 +352,57 @@ def call_model(model_info, batch):
                     return parsed_data
                 else:
                     print(f"    [{model_info['display']}] JSON error (Attempt {attempt+1})", flush=True)
-            
+
             elif response.status_code == 429:
                 wait_time = base_wait * (2 ** attempt)
                 print(f"    [{model_info['display']}] Rate Limit (429). Cooling down {wait_time}s...", flush=True)
                 time.sleep(wait_time)
                 continue
-            
+
             elif response.status_code >= 500:
                 print(f"    [{model_info['display']}] Server Error {response.status_code}. Retrying...", flush=True)
                 time.sleep(10)
                 continue
-            
+
         except requests.exceptions.RequestException as e:
             print(f"    [{model_info['display']}] Net Error. Retrying...", flush=True)
             time.sleep(5)
-            
+
         time.sleep(2)
-    
+
     print(f"    [{model_info['display']}] Failed after {max_retries} attempts.", flush=True)
     return []
 
-# --- DEDUPLICATION LOGIC ---
-def normalize_text(text):
-    text = re.sub(r'[।,:;\-\(\)\"\'\?]', ' ', text)
-    return text.lower().strip()
-
-def extract_key_terms(text):
-    text = normalize_text(text)
-    bangla_stops = {'এ', 'এর', 'ও', 'তে', 'না', 'কে', 'যে', 'হয়', 'এবং', 'করে', 'থেকে', 'নিয়ে', 'জন্য', 'বলে', 'করা'}
-    english_stops = {'the', 'a', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'has', 'have', 'be'}
-    words = re.split(r'\s+', text)
-    return {w for w in words if len(w) > 1 and w not in (bangla_stops | english_stops)}
-
-def smart_similarity(text1, text2):
-    terms1 = extract_key_terms(text1)
-    terms2 = extract_key_terms(text2)
-    
-    if not terms1 or not terms2:
-        token_score = 0.0
-    else:
-        token_score = len(terms1 & terms2) / min(len(terms1), len(terms2))
-
-    seq_score = difflib.SequenceMatcher(None, normalize_text(text1), normalize_text(text2)).ratio()
-    return max(token_score, seq_score)
-
-def semantic_deduplication(articles, similarity_threshold=0.55):
-    if not articles or len(articles) < 2: return articles
-    print(f"\nSemantic Deduplication (Smart Topic Mode, threshold={similarity_threshold})...", flush=True)
-    
-    sorted_indices = sorted(range(len(articles)), key=lambda k: len(articles[k]['title']), reverse=True)
-    keep_mask = [True] * len(articles)
-    duplicates = 0
-    
-    for i in range(len(sorted_indices)):
-        idx_a = sorted_indices[i]
-        if not keep_mask[idx_a]: continue
-            
-        for j in range(i + 1, len(sorted_indices)):
-            idx_b = sorted_indices[j]
-            if not keep_mask[idx_b]: continue
-            
-            if smart_similarity(articles[idx_a]['title'], articles[idx_b]['title']) >= similarity_threshold:
-                keep_mask[idx_b] = False
-                duplicates += 1
-
-    result = [articles[i] for i in range(len(articles)) if keep_mask[i]]
-    print(f"   Removed {duplicates} topic duplicates", flush=True)
-    return result
-
 def main():
     print("=" * 60, flush=True)
-    print("Elite News Curator - FINAL PRODUCTION BUILD", flush=True)
+    print("Elite News Curator - Multi-API Ensemble", flush=True)
     print("=" * 60, flush=True)
 
+    # Validate API keys
     if not GROQ_API_KEY:
         print("::error::GEM environment variable is missing!", flush=True)
         sys.exit(1)
-    
+
+    needs_openrouter = any(m.get("api") == "openrouter" for m in MODELS)
+    if needs_openrouter and not OPENROUTER_API_KEY:
+        print("::error::OP environment variable is missing!", flush=True)
+        sys.exit(1)
+
+    needs_fyra = any(m.get("api") == "fyra" for m in MODELS)
+    if needs_fyra and not FYRA_API_KEY:
+        print("::error::FRY environment variable is missing!", flush=True)
+        sys.exit(1)
+
+    needs_mistral = any(m.get("api") == "mistral" for m in MODELS)
+    if needs_mistral and not MISTRAL_API_KEY:
+        print("::error::GEM2 environment variable is missing!", flush=True)
+        sys.exit(1)
+
+    needs_google = any(m.get("api") == "google" for m in MODELS)
+    if needs_google and not GOOGLE_API_KEY:
+        print("::error::LAM environment variable is missing!", flush=True)
+        sys.exit(1)
+
     articles = fetch_titles_only()
     if not articles:
         print("No articles found.", flush=True)
@@ -326,57 +415,55 @@ def main():
     for model_info in MODELS:
         bs = model_info['batch_size']
         model_batches[model_info['name']] = [articles[i:i + bs] for i in range(0, len(articles), bs)]
-    
+
     max_batch_count = max(len(batches) for batches in model_batches.values())
     MAX_BATCHES_LIMIT = 20
     selections_map = {}
-    
+
     print(f"\nProcessing {min(max_batch_count, MAX_BATCHES_LIMIT)} Batch Groups...", flush=True)
 
     for batch_idx in range(min(MAX_BATCHES_LIMIT, max_batch_count)):
         print(f"  Batch Group {batch_idx+1}...", flush=True)
-        
+
         for model_info in MODELS:
             m_name = model_info['name']
             if batch_idx >= len(model_batches[m_name]): continue
-            
+
             decisions = call_model(model_info, model_batches[m_name][batch_idx])
-            
+
             if decisions:
                 print(f"    [{model_info['display']}] Selected {len(decisions)} articles", flush=True)
-                for d in decisions:
-                    aid = d.get('id')
-                    if aid is not None and isinstance(aid, int) and aid < len(articles):
+                for aid in decisions:
+                    if isinstance(aid, int) and aid < len(articles):
                         if aid not in selections_map:
-                            selections_map[aid] = {'models': [], 'decisions': []}
+                            selections_map[aid] = {'models': [], 'count': 0}
                         selections_map[aid]['models'].append(model_info['display'])
-                        selections_map[aid]['decisions'].append(d)
+                        selections_map[aid]['count'] += 1
             else:
-                 print(f"    [{model_info['display']}] No selections", flush=True)
-            
-            time.sleep(3) 
-        
-        time.sleep(5)
+                print(f"    [{model_info['display']}] No selections", flush=True)
 
-    # Merging
+            time.sleep(15)  # Delay between models
+
+        time.sleep(30)  # Delay between batch groups
+
+    # Merging - only keep articles selected by at least 2 models
     final_articles = []
-    print(f"\nMerging...", flush=True)
+    print(f"\nMerging (2+ model consensus required)...", flush=True)
     for aid, info in selections_map.items():
-        original = articles[aid].copy()
-        first_dec = info['decisions'][0]
-        original['category'] = first_dec.get('category', 'Priority')
-        original['reason'] = first_dec.get('reason', 'Systemic Significance')
-        original['selected_by'] = info['models']
-        final_articles.append(original)
+        if len(info['models']) >= 3:  # At least 2 models must agree
+            original = articles[aid].copy()
+            original['category'] = 'Priority'
+            original['reason'] = 'Systemic Significance'
+            original['selected_by'] = info['models']
+            final_articles.append(original)
 
-    # Deduplication
-    final_articles = semantic_deduplication(final_articles)
-    
-    # --- SPLIT OUTPUT LOGIC ---
+    print(f"   ✅ {len(final_articles)} articles passed 2+ model consensus from {len(selections_map)} total selections", flush=True)
+
+    # Results
     print(f"\nRESULTS:", flush=True)
     print(f"   Analyzed: {len(articles)} headlines", flush=True)
     print(f"   Selected: {len(final_articles)} unique articles", flush=True)
-    
+
     if len(final_articles) > MAX_FEED_ITEMS:
         print(f"   [!] Feed Limit Exceeded ({len(final_articles)} > {MAX_FEED_ITEMS}). Splitting output.", flush=True)
         save_xml(final_articles[:MAX_FEED_ITEMS], "filtered_feed.xml")
