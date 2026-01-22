@@ -49,7 +49,7 @@ MODELS = [
         "api": "mistral"
     },
     {
-        "name": "gemini-2.5-flash-lite",
+        "name": "gemini-2.5-flash",
         "display": "Gemini-2.5-Flash-Lite",
         "batch_size": 100,
         "api": "google"
